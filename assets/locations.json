@@ -1,0 +1,105 @@
+[
+  {
+    "address": "341 Kings Road, London, SW3 5ES",
+    "city": "CHELSEA",
+    "postcode": "SW3 5ES",
+    "phone": [
+      "020 3903 9673"
+    ],
+    "openhours": [
+      "Monday:10 - 6",
+      "Tuesday:10 - 6",
+      "Wednesday:10 - 6",
+      "Thursday:10 - 6",
+      "Friday:10 - 6",
+      "Saturday:10 - 6",
+      "Sunday:12 - 6"
+    ]
+  },
+  {
+    "address": "51 Ledbury Road, London, W11 2AA",
+    "city": "LEDBURY ROAD NOTTING HILL",
+    "postcode": "W11 2AA",
+    "phone": [
+      "020 7221 1663"
+    ],
+    "openhours": [
+      "Monday:9 - 8",
+      "Tuesday:9 - 8",
+      "Wednesday:9 - 8",
+      "Thursday:9 - 8",
+      "Friday:9 - 8",
+      "Saturday:9 - 8",
+      "Sunday:12 - 6"
+    ]
+  },
+  {
+    "address": "Ground Floor, Westfield London, Shopping Centre, Ariel Way, London, W12 7HT, (Next door to West Elm & opposite Ole & Steen)",
+    "city": "WESTFIELD WHITE CITY",
+    "postcode": "W12 7HT",
+    "phone": [
+      "020 3915 3352"
+    ],
+    "openhours": [
+      "Monday:10 - 7",
+      "Tuesday:10 - 7",
+      "Wednesday:10 - 7",
+      "Thursday:10 - 7",
+      "Friday:10 - 7",
+      "Saturday:10 - 7",
+      "Sunday:12 - 7"
+    ]
+  },
+  {
+    "address": "Oxford Street, London, W1A 1AB",
+    "city": "SELFRIDGES LONDON",
+    "postcode": "W1A 1AB",
+    "phone": [
+      "07375 112725",
+      "020 7318 2462"
+    ],
+    "openhours": [
+      "Monday:10 - 9",
+      "Tuesday:10 - 9",
+      "Wednesday:10 - 9",
+      "Thursday:10 - 9",
+      "Friday:10 - 9",
+      "Saturday:10 - 9",
+      "Sunday:12 - 6"
+    ]
+  },
+  {
+    "address": "300 Oxford Street, London, W1C 1DX",
+    "city": "JOHN LEWIS OXFORD STREET",
+    "postcode": "W1C 1DX",
+    "phone": [
+      "020 3073 0539"
+    ],
+    "openhours": [
+      "Monday:10 - 8",
+      "Tuesday:10 - 8",
+      "Wednesday:10 - 8",
+      "Thursday:10 - 8",
+      "Friday:10 - 8",
+      "Saturday:10 - 8",
+      "Sunday:11.30 - 6"
+    ]
+  },
+  {
+    "address": "300 Oxford Street, London, W1C 1DX",
+    "city": "JOHN LEWIS OXFORD STREET",
+    "postcode": "W1C 1DX",
+    "phone": [
+      "020 3073 0539"
+    ],
+    "openhours": [
+      "Monday:10 - 8",
+      "Tuesday:10 - 8",
+      "Wednesday:10 - 8",
+      "Thursday:10 - 8",
+      "Friday:10 - 8",
+      "Saturday:10 - 8",
+      "Sunday:11.30 - 6"
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+#custom-fields-accordion .accordion, .accordion * {
+  -webkit-box-sizing:border-box; 
+  -moz-box-sizing:border-box; 
+  box-sizing:border-box;
+}
+
+#custom-fields-accordion .accordion-section {
+  border-top: 1px solid #dcdcdc;
+  position: relative;
+}
+
+#custom-fields-accordion .accordion-section:last-child {
+  border-bottom: 1px solid #dcdcdc;
+}
+
+#custom-fields-accordion .accordion-section-content {
+  display:none;
+  padding-bottom: 15px;
+}
+
+#custom-fields-accordion .accordion-section-title {
+  width:100%;
+  display:inline-block;
+  font-size:1.200em;
+  border: 0 !important;
+  padding: 0px;
+  line-height: 3;
+}
+
+#custom-fields-accordion a.accordion-section-title:after {
+  width: 8px;
+  height: 8px;
+  border-right: 1px solid #4a6e78;
+  border-bottom: 1px solid #4a6e78;
+  position: absolute;
+  right: 10px;
+  content: " ";
+  top: 25px;
+  transform: rotate(-45deg);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+#custom-fields-accordion a.active.accordion-section-title:after {
+  transform: rotate(45deg);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}

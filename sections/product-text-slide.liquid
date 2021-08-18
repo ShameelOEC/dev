@@ -1,0 +1,77 @@
+{%- liquid
+assign bg_color = section.settings.bg_color
+assign padding_top = section.settings.padding_top
+assign padding_bottom = section.settings.padding_bottom
+-%}
+
+<div class="text_slideshow product-slider product-text-slide"
+    style="background-color: {{ bg_color }};padding-top:{{ padding_top }};padding-bottom:{{ padding_bottom }}">
+    <div class="content_slider">
+        {% for title in product.metafields.block_text_slide.title %}
+      {% assign description = product.metafields.block_text_slide.description[forloop.index0] %}
+            <div class="item">
+                {% if description != blank %}
+                    <div class="text_description">
+                        {{ description }}
+                    </div>
+                {% endif %}
+                {% if title != blank %}
+                    <div class="text_title">
+                        {{ title }}
+                    </div>
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% schema %}
+{
+  "name": "Product-text-slide",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Space settings",
+      "info": "Set top and bottom padding"
+    },
+    {
+      "type": "text",
+      "id": "padding_top",
+      "label": "Padding top",
+      "default": "20px",
+      "info": "Unit is pixel"
+    },
+    {
+      "type": "text",
+      "id": "padding_bottom",
+      "label": "Padding bottom",
+      "default": "20px",
+      "info": "Unit is pixel"
+    }
+  ],
+  "blocks": [
+        {
+            "type": "text",
+            "name": "Block text slide",
+            "settings": [
+                {
+                "type": "richtext",
+                "id": "description",
+                "label": "Text"
+              },
+              {
+                "type": "html",
+                "id": "name-text",
+                "label": "Title"
+              }
+            ]
+        }
+    ]
+  
+}
+{% endschema %}

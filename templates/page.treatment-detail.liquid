@@ -1,0 +1,266 @@
+<div class="treatment_page" data-full-width="true">
+    <section class="layout--main-content" id="main-content" >
+
+    {% if page.metafields.custom_fields["cms_banner"] != blank %}
+    <div class="treatment_page_banner">
+      <div class="custom-field--value">
+        {% render 'cf-image' with image: page.metafields.custom_fields["cms_banner"] %}
+      </div>
+    </div>
+  {% endif %}
+  <div class="cms-content">
+    <div class="container">
+      {% section 'pages_treatment' %}
+      <div data-item="rte-content">
+        {{ page.content }}
+      </div>
+      {% if page.metafields.custom_fields["treatment_book"] != blank %}
+        {% assign data_attr = shop.metafields._cf_pages["treatment_book"].data_attr %}
+        <div class="treatment-book-wrapper" {{ data_attr }}>
+          <div class="treatment-book-content">
+            <div class="template-page-title">
+              <h1 data-item="section-heading">
+                Treatments
+              </h1>
+            </div>
+            <div class="treatment-book-items">
+              {% for item in page.metafields.custom_fields["treatment_book"] %}
+                <div class="treatment-book-item cf-text-pos--{{ item.text_pos }} cf-light-text--{{ item.light_text }}">
+                  <div class="treatment-book-inner">
+                    <div class="treatment-book-top">
+                      {% if item.title != blank %}
+                        <div class="treatment-book-title">
+                          {{ item.title }}
+                        </div>
+                      {% endif %}
+                      {% if item.treatement_price != blank %}
+                        <div class="treatment-book-price">
+                          {{ item.treatement_price }}
+                        </div>
+                      {% endif %}
+                    </div>
+                    {% if item.body != blank %}
+                      <div class="treatment-book-description">
+                        {{ item.body }}
+                      </div>
+                    {% endif %}
+                    {% if item.link != blank %}
+                      <div class="treatment-book-link">
+                        {{ item.link }}
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      {% endif %}
+
+      {% if page.metafields.custom_fields["content_expert"] != blank %}
+        <div class="content-expert">
+          <div class="custom-field--value">
+            {{ page.metafields.custom_fields["content_expert"] }}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+
+  {% if page.metafields.custom_fields["images_with_text"] != blank %}
+    <div class="featured-content--root featured-content-images" style="background-color:#ebbaab;padding-top:0px;
+    padding-bottom:0px"
+         data-alternative-color="false" data-apply-overlay="false" data-dark-background="" data-full-width="true" data-image-height="medium" data-mobile-overlay="false" data-overlap="false" data-text-exists="true" data-text-position="right" data-text-width="large" data-transparent-overlap="false">
+      {% for item in page.metafields.custom_fields["images_with_text"] %}
+        <div class="featured-content--container cf-right-aligned--{{ item.right_aligned }}">
+          <div class="featured-content--image">
+            {% if item.image != blank %}
+              {% render "cf-image" with image: item.image, crop: "center", size: "828x574" %}
+            {% endif %}
+          </div>
+          <div class="featured-content--text">
+            <div class="featured-content--text-container">
+              {% if item.title != blank %}
+              <h2 class="featured-content--title" data-item="section-heading">
+                  {{ item.title }}
+              </h2>
+              {% endif %}
+              {% if item.body != blank %}
+                <div class="cf-widget-field cf-widget-field__body cf-widget-field--html">
+                  {{ item.body }}
+                </div>
+              {% endif %}
+
+              {% if item.link != blank %}
+                <div class="cf-widget-field cf-widget-field__link cf-widget-field--link">
+                  {{ item.link }}
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+    <div class="cms-content">
+        <div class="container">
+            {% if page.metafields.custom_fields["content_expert_2"] != blank %}
+                <div class="content-expert content-expert-wrapper">
+                    <div class="custom-field--value">
+                        {{ page.metafields.custom_fields["content_expert_2"] }}
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+    {% if page.metafields.custom_fields["video"] != blank %}
+        <div
+                class="feature-video--root home-page-section treatment-page-section"
+                data-section-id="1521155972652"
+                data-js-class="FeaturedVideo"
+                data-video-type="mp4"
+                data-video-id="{{ page.metafields.custom_fields["video"] }}"
+                data-thumbnail="true"
+                data-full-width="true"
+                data-section-height="small"
+                data-darken-video="false"
+                data-alt-text="true"
+        >
+        <div class="feature-video--body" style="min-height: 725px;">
+            <div class="feature-video--container">
+                <div class="feature-video--thumbnail">
+                    {% if page.metafields.custom_fields["video_images"] != blank %}
+                        {% render 'cf-image' with image: page.metafields.custom_fields["video_images"] %}
+                    {% endif %}
+                </div>
+
+                    <div class="feature-video--play-mobile">
+                        {% render 'framework--icons', icon: 'play-circle-fill' %}
+                    </div>
+
+                <div class="feature-video--header">
+
+                    <div class="feature-video--play">
+                        {% render 'framework--icons', icon: 'play-circle-fill' %}
+                    </div>
+
+                </div>
+
+                <div id="player-1521155972652"></div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        // YouTube callback
+        function onYouTubeIframeAPIReady() {
+            $(function() {
+                $(window).trigger('theme.utils.youtubeAPIReady');
+            });
+        }
+    </script>
+  {% endif %}
+    <div class="cms-content">
+        <div class="container">
+            {% if page.metafields.custom_fields["content_expert_3"] != blank %}
+                <div class="content-expert content-expert-wrapper">
+                    <div class="custom-field--value">
+                        {{ page.metafields.custom_fields["content_expert_3"] }}
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+
+  {% if page.metafields.custom_fields["testimonials"] != blank %}
+      <div class="shopify-section" id="shopify-section-text-slide">
+      <div class="text_slideshow product-slider" style="background-color: #37573d;padding-top:194px;padding-bottom:70px">
+          <div class="content_slider">
+              {% for item in page.metafields.custom_fields["testimonials"] %}
+                  <div class="item">
+                      {% if item.quote != blank %}
+                          <div class="text_description">
+                              {{ item.quote }}
+                          </div>
+                      {% endif %}
+                      {% if item.author != blank %}
+                          <div class="text_title">
+                              {{ item.author }}
+                          </div>
+                      {% endif %}
+                  </div>
+              {% endfor %}
+          </div>
+      </div>
+      </div>
+  {% endif %}
+    {% section 'treatment_collections_section' %}
+  {% if page.metafields.custom_fields["other_treatment"] != blank %}
+    {% assign data_attr = shop.metafields._cf_pages["other_treatment"].data_attr %}
+    <div class="cf-widget-other-treatment cf-widget__columns" {{ data_attr }}>
+      <div class="cf-widget-items-wrapper">
+        {% for item in page.metafields.custom_fields["other_treatment"] %}
+          <div class="cf-widget-item">
+            <div class="inner">
+
+              {% if item.image != blank %}
+                <div class="cf-widget-field cf-widget-field__image cf-widget-field--image">
+                  {% render "cf-image" with image: item.image, crop: "center", size: "380x380" %}
+                </div>
+              {% endif %}
+
+              {% if item.title != blank %}
+                <div class="cf-widget-field cf-widget-field__title cf-widget-field--text">
+                  {{ item.title }}
+                </div>
+              {% endif %}
+
+              {% if item.body != blank %}
+                <div class="cf-widget-field cf-widget-field__body cf-widget-field--html">
+                  {{ item.body }}
+                </div>
+              {% endif %}
+
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
+    <script src="//cdn.shopify.com/s/files/1/0531/2374/3901/t/4/assets/owl.carousel.min.js"></script>
+    <script>
+
+        $('.text_slideshow .content_slider').owlCarousel({
+            items: 1,
+            navigation: true,
+            dots:true,
+            scrollPerPage: true,
+            slideSpeed: 800,
+            lazyLoad: false,
+            pagination: true,
+            navigationText: false,
+            responsiveClass:true,
+            responsive : {
+                0 : {
+                    items: 1,
+                    loop:true,
+                },
+                480 : {
+                    loop:true,
+                    items: 1
+                },
+                768 : {
+                    loop:true,
+                    items: 1
+                }
+            }
+        });
+
+    </script>
+    {{'treatment_collection.css' | asset_url | stylesheet_tag}}
+    </section>
+</div>

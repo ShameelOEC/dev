@@ -1,0 +1,8 @@
+{% if page.metafields.custom_fields["treatment_banner"] != blank %}
+  <div class="custom-field custom-field__treatment-banner custom-field__type--image">
+    <h3 class="custom-field--title">cms_banner</h3>
+    <div class="custom-field--value">  
+      {% render 'cf-image' with image: page.metafields.custom_fields["treatment_banner"] %}
+    </div>
+  </div>
+{% endif %}

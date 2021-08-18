@@ -1,0 +1,115 @@
+{% comment %} Usage:
+- Place inside loop of 'option' objects
+- If more than one product is included on one page, include a unique 'id'
+- If swatches are desired, set 'is_swatches' to true
+{% endcomment %}
+
+{% unless is_swatches %}
+{% assign is_swatches = false %}
+{% endunless %}
+
+{%- capture radios_name -%}
+{{- id }}-{{ option.name | downcase | remove: ' ' -}}
+{%- endcapture -%}
+
+<div
+     class="radios--root"
+     data-js-class="Radios"
+     data-is-swatches="{{ is_swatches }}"
+     >
+  <div class="radios--header">
+    <label class="radios--option-label" data-item="accent-text" id="{{ radios_name }}">
+      Select a Shade
+    </label>
+{% comment %}
+    {% if is_swatches %}
+    <span class="radios--option-current" data-item="light-accent-text">
+      {% for value in option.values %}
+      {% if value == option.selected_value %}
+      {{ value | escape }}
+      {% endif %}
+      {% endfor %}
+    </span>
+    {% endif %}
+{% endcomment %}
+  </div>
+  <div class="option_content">
+    {% assign current_variant = product.selected_or_first_available_variant %}
+
+    {% for variant in product.variants %}
+    {% assign active_variant = current_variant.title %}
+    
+    <div class="option_value value_{{variant.title | remove: ' '}} {% if active_variant == variant.title %}Show{%else%}hide{%endif%}">
+    {{variant.metafields.variant_content.variant_content}}
+    </div>
+    {% endfor %}
+  </div>
+  <div
+       class="radios--container"
+       role="radiogroup"
+       aria-labelledby="{{ radios_name }}"
+       >
+    {% for value in option.values %}
+    <div class="radios--main">
+      <input
+             class="radios--input"
+             type="radio"
+             id="{{ radios_name }}-{{ value | downcase | remove: ' ' }}"
+             name="{{ radios_name }}"
+             value="{{ value | escape }}"
+             data-item="radio"
+             {% if value == option.selected_value %}
+             checked
+             {% endif %}
+             />
+
+      {% if is_swatches %}
+      <label
+             class="radios--swatch-button"
+             for="{{ radios_name }}-{{ value | downcase | remove: ' ' }}"
+             aria-label="{{ value | escape }}"
+             ></label>
+
+      {% else %}
+      <label
+             class="radios--value-button"
+             data-item="button"
+             for="{{ radios_name }}-{{ value | downcase | remove: ' ' }}"
+             >
+        <div>{{ value | escape }}</div>
+      </label>
+      {% endif %}
+
+    </div>
+    {% endfor %}
+  </div>
+</div>
+<style>
+  .option_content {
+    padding-bottom: 10px;
+  }
+  .option_value.hide{
+    display:none;
+  }
+  .option_value.show{
+    display:block;
+  }
+  .option_content div p:first-child {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+</style>
+<script>
+  $(document).ready(function(){
+    $(document).on('change','.radios--input',function(){
+    var option_val = $(this).val();
+      option_val = option_val.replace(' ','');
+      if(option_val){
+        $('.option_value').addClass('hide');
+        $('.option_value').removeClass('show');
+        $('.option_value.value_'+option_val).removeClass('hide');
+        $('.option_value.value_'+option_val).addClass('show');
+      }
+    });
+  });
+</script>

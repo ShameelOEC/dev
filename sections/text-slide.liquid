@@ -1,0 +1,80 @@
+{%- liquid
+assign bg_color = section.settings.bg_color
+assign padding_top = section.settings.padding_top
+assign padding_bottom = section.settings.padding_bottom
+-%}
+
+<div class="text_slideshow product-slider" style="background-color: {{ bg_color }};padding-top:{{ padding_top }};padding-bottom:{{ padding_bottom }}">
+    <div class="content_slider">
+        {% for block in section.blocks %}
+            <div class="item">
+                {% if block.settings.description != blank %}
+                    <div class="text_description">
+                        {{ block.settings.description }}
+                    </div>
+                {% endif %}
+                {% if block.settings.name-text != blank %}
+                    <div class="text_title">
+                        {{ block.settings.name-text }}
+                    </div>
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% schema %}
+{
+  "name": "Text Slideshow",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Space settings",
+      "info": "Set top and bottom padding"
+    },
+    {
+      "type": "text",
+      "id": "padding_top",
+      "label": "Padding top",
+      "default": "20px",
+      "info": "Unit is pixel"
+    },
+    {
+      "type": "text",
+      "id": "padding_bottom",
+      "label": "Padding bottom",
+      "default": "20px",
+      "info": "Unit is pixel"
+    }
+  ],
+  "blocks": [
+        {
+            "type": "text",
+            "name": "Block text slide",
+            "settings": [
+                {
+                "type": "richtext",
+                "id": "description",
+                "label": "Text"
+              },
+              {
+                "type": "html",
+                "id": "name-text",
+                "label": "Title"
+              }
+            ]
+        }
+    ],
+  "presets": [
+    {
+      "name": "Text Slider",
+      "category": "Image"
+    }
+  ]
+}
+{% endschema %}

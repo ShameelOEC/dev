@@ -1,0 +1,2816 @@
+{
+  "current": {
+    "color--accent": "#efc2b3",
+    "color-text": "#454545",
+    "color--alternative": "#ffffff",
+    "color-page-bg": "#ffffff",
+    "color-panel-bg": "#fcfbfc",
+    "color-border": "#e0e0e0",
+    "color-button": "#ffffff",
+    "color-button-bg": "#454545",
+    "color-header-bg": "#ffffff",
+    "color-header": "#f0e6d8",
+    "color-header-cart": "#f0e6d8",
+    "bg-color--footer": "#37573d",
+    "color--footer": "#f0e6d8",
+    "color-slider-caption": "#454545",
+    "color-slider-caption-bg": "rgba(0,0,0,0)",
+    "color-slider-button": "#ffffff",
+    "color-slider-button-bg": "#454545",
+    "color-slider-nav": "#454545",
+    "color-tabs-accordions": "#d6cacb",
+    "typography--heading": "linotype_didot_i4",
+    "typography--heading--uppercase": false,
+    "typography--heading--size": "large",
+    "typography--accent": "itc_avant_garde_gothic_n4",
+    "typography--paragraph": "itc_avant_garde_gothic_n4",
+    "typography--paragraph--size": "medium",
+    "hover-image-enabled": true,
+    "product--label-color": "accent-dark-text",
+    "search--show-in-header": true,
+    "social--instagram--url": "https:\/\/www.instagram.com\/blinkbrowbar\/",
+    "social--facebook--url": "https:\/\/www.facebook.com\/blinkbrowbar\/",
+    "social--youtube--url": "",
+    "social--twitter--url": "https:\/\/twitter.com\/blinkbrowbar?lang=en",
+    "popup--enabled": true,
+    "popup--test-mode": false,
+    "popup--image": "shopify:\/\/shop_images\/Consultation_e43ad8aa-d23d-4174-9bd8-93d8f79e1000.jpg",
+    "cart--type": "drawer",
+    "checkout_logo_image": "shopify:\/\/shop_images\/1604125_bbb_logo_charcoal.png",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "transparent-menu": true,
+          "header-account-show": true,
+          "cart--icon": "bag",
+          "header-menu-center": true,
+          "menu": "main-menu",
+          "show-currency-selector": false,
+          "show-locale-selector": false,
+          "header-logo-center": true,
+          "logo": "shopify:\/\/shop_images\/logo-new2.png",
+          "logo_black": "shopify:\/\/shop_images\/logo-hover.png",
+          "logo-height": 75,
+          "logo_mobile": "shopify:\/\/shop_images\/logo_mobile.png"
+        }
+      },
+      "framework--footer": {
+        "type": "framework--footer",
+        "blocks": {
+          "footer--about": {
+            "type": "about",
+            "settings": {
+              "about-title": "Company Information",
+              "text": "<p>Blink Brow Bar Ltd <br>12 Old Gloucester Road<br>London<br>WC1N 3AX<\/p>\n<p>Enquiries@blinkbrowbar.com<\/p>\n<p>Company No. 06553841<\/p>",
+              "subscribe--show-social-icons": false
+            }
+          },
+          "footer--menu": {
+            "type": "menu",
+            "settings": {
+              "menu-title": "About Us",
+              "menu": "about-us"
+            }
+          },
+          "f464faad-d4ef-46f0-ad6c-64e4b7befed2": {
+            "type": "menu",
+            "settings": {
+              "menu-title": "Customer Service",
+              "menu": "customer-service"
+            }
+          },
+          "41808b6f-bd75-4e96-94eb-1a61c325bb09": {
+            "type": "html",
+            "settings": {
+              "box-title": "Social Media",
+              "html_content": "<ul class=\"social\">\n    <li class=\"ins\"><a href=\"#\">Instagram<\/a><\/li>\n    <li class=\"fb\"><a href=\"#\">Facebock<\/a><\/li>\n    <li class=\"twitter\"><a href=\"#\">Twitter<\/a><\/li>\n    <li class=\"youtube\"><a href=\"#\">Youtube<\/a><\/li>\n<\/ul>"
+            }
+          },
+          "footer--subscribe": {
+            "type": "subscribe",
+            "settings": {
+              "newsletter--heading": "Join The Community",
+              "newsletter--info": "<p>Sign up to be the first to know about  new products and promotions.<\/p>",
+              "subscribe--show-newsletter": true
+            }
+          }
+        },
+        "block_order": [
+          "footer--about",
+          "footer--menu",
+          "f464faad-d4ef-46f0-ad6c-64e4b7befed2",
+          "41808b6f-bd75-4e96-94eb-1a61c325bb09",
+          "footer--subscribe"
+        ],
+        "settings": {
+          "logo_footer": "shopify:\/\/shop_images\/logo_footer.png",
+          "text_copyright": "© BBBLondon 2021. All rights reserved.",
+          "url_link1": "shopify:\/\/pages\/press",
+          "lable_link1": "Privacy Policies",
+          "url_link2": "shopify:\/\/pages\/press",
+          "lable_link2": "Terms & Conditions",
+          "show-currency-selector": false,
+          "show-locale-selector": false,
+          "show-payment-icons": true
+        }
+      },
+      "product": {
+        "type": "product",
+        "settings": {
+          "product-breadcrumbs-show": true,
+          "variant-style": "dropdowns",
+          "swatches-enabled": true,
+          "smart-payment-button": false,
+          "product-unavailable-form-show": true,
+          "low-in-stock-amount": 0,
+          "product-pickup-enabled": false,
+          "modal-enabled": true,
+          "image-zoom-enabled": true,
+          "loop-enabled": false,
+          "cart-form-position": "right",
+          "product-size-chart-enabled": false,
+          "product-size-chart-option": "size",
+          "product-size-chart-page-content": "",
+          "product-share-show": true,
+          "product-share-twitter": true,
+          "product-share-facebook": true,
+          "product-share-pinterest": true
+        }
+      },
+      "collection": {
+        "type": "collection",
+        "settings": {
+          "collections-breadcrumbs-show": true,
+          "collections-tags-show": true,
+          "show-title": false,
+          "collections-products-per-row": "4",
+          "mobile-items-per-row": "2"
+        }
+      },
+      "1519177052247": {
+        "type": "slideshow",
+        "blocks": {
+          "1519177052247-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Homepage_Banner_Light_1bcc43d6-7dc8-45e8-96f6-91c9cef1c370.jpg",
+              "slide-title": "Your Brows. Your Way.",
+              "slide-tagline": "It isn’t just in our 23 salons worldwide that you can experience this beauty reboot. We’ve funnelled our 15 years’ experience shaping over 20 million brows into a 16-strong range of efficient and easy-to-use products, arming you with the tools you need to bring out the best in your brows each and every morning.",
+              "slide-link-url": "",
+              "slide-link-title": "BOOK YOUR APPOINTMENT",
+              "slide-link-url2": "",
+              "slide-link-title2": "SHOP BROW PRODUCTS",
+              "slide-y-pos": "middle",
+              "slide-x-pos": "left",
+              "slide-text-pos": "text-left"
+            }
+          }
+        },
+        "block_order": [
+          "1519177052247-0"
+        ],
+        "settings": {
+          "autoplay": true,
+          "transition_style": "default",
+          "rotate-frequency-range": 7
+        }
+      },
+      "1519177181912": {
+        "type": "featured-collection",
+        "settings": {
+          "title_collection": "Bestsellers",
+          "info_collection": "<p>Discover our edit of brow and lash essentials loved by beauty directors, make up artists and influencers, since 2004.<\/p>",
+          "home-product-slider-collection": "bestsellers-1",
+          "max_products": 8,
+          "max_slider_item": 6,
+          "bg_color": "#ffffff",
+          "padding_top": "72px",
+          "padding_bottom": "72px"
+        }
+      },
+      "1521155972652": {
+        "type": "framework--featured-video",
+        "settings": {
+          "video-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0531\/2374\/3901\/files\/BBBLONDON_Love_1.mp4?v=1628314414",
+          "type-video": "mp4",
+          "image": "shopify:\/\/shop_images\/Your-Brows-Your-Way.png",
+          "full-width": true,
+          "bg_color": "#f7f7f7",
+          "section-height": "small",
+          "darken-video": false,
+          "alt-text": true,
+          "heading": "YOUR BROWS YOUR WAY",
+          "sub-heading": "test",
+          "button-text": "",
+          "button-url": "",
+          "padding_top": "0px",
+          "padding_bottom": "0px"
+        }
+      },
+      "1521156071253": {
+        "type": "framework--featured-content",
+        "settings": {
+          "full-width": true,
+          "background_color": "#ebbaab",
+          "text-position": "left",
+          "text-width": "large",
+          "overlap": false,
+          "transparent-overlap": false,
+          "alternative-color": false,
+          "mobile-overlay": false,
+          "image": "shopify:\/\/shop_images\/Vanita_9fb795d3-5a2d-4449-90b6-a33388c2b795.jpg",
+          "image-height": "medium",
+          "parallax-enabled": false,
+          "apply-overlay": false,
+          "title": "Meet the Founder",
+          "description": "<p>Vanita Parti, Founder of the Brand and industry leader believes that brows make a huge difference, a small investment for huge results and is now leading BBBLondon to be the global market leaders in everything brows and lashes.<\/p>",
+          "link-url": "shopify:\/\/products\/bbblondon-clear-brow-gloss",
+          "link-text": "READ MORE",
+          "padding_top": "0px",
+          "padding_bottom": "0px"
+        }
+      },
+      "announcement": {
+        "type": "announcement",
+        "blocks": {
+          "db7dbd36-1093-406b-b7fa-5e087a728631": {
+            "type": "text",
+            "settings": {
+              "text": "FREE DELIVERY ON ORDERS OVER £25",
+              "link": ""
+            }
+          },
+          "30d000bf-17de-4a54-a01d-622aa8afd24e": {
+            "type": "text",
+            "settings": {
+              "text": "FREE DELIVERY ON ORDERS OVER £25 2",
+              "link": ""
+            }
+          },
+          "558fd467-b26e-47be-be3f-7eecde8dd570": {
+            "type": "text",
+            "settings": {
+              "text": "Add your announcement message",
+              "link": ""
+            }
+          },
+          "a3b8db41-fbfd-4920-ac65-5794f955859d": {
+            "type": "text",
+            "settings": {
+              "text": "Add your announcement message2",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "db7dbd36-1093-406b-b7fa-5e087a728631",
+          "30d000bf-17de-4a54-a01d-622aa8afd24e",
+          "558fd467-b26e-47be-be3f-7eecde8dd570",
+          "a3b8db41-fbfd-4920-ac65-5794f955859d"
+        ],
+        "settings": {
+          "enabled": true,
+          "home-page-only": false,
+          "background-color": "accent",
+          "alternative-color": false
+        }
+      },
+      "1599542427196": {
+        "type": "framework--featured-blog",
+        "settings": {
+          "blog-heading": "Brow Talk & Beyond",
+          "blog": "news",
+          "tag-select": "pinned",
+          "show-date": false,
+          "show-excerpt": true,
+          "view-more-text": "VIEW MORE",
+          "bg_color": "#ffffff",
+          "padding_top": "72px",
+          "padding_bottom": "72px"
+        }
+      },
+      "1605598890c8501c96": {
+        "type": "framework--image-text-overlay",
+        "disabled": true,
+        "blocks": {
+          "1605598890c8501c96-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Nourishing-Brow-Oil-2-1024x1024.jpg",
+              "wide": true,
+              "tall": true,
+              "retain-ratio": false,
+              "title": "NOURISH",
+              "link-url": "",
+              "link-text": "SHOP NOW"
+            }
+          },
+          "1605598890c8501c96-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Gallery_Image.jpg",
+              "wide": true,
+              "tall": false,
+              "retain-ratio": false,
+              "title": "TINTED BROW GEL",
+              "link-url": "",
+              "link-text": "SHOP NOW"
+            }
+          },
+          "1605598890c8501c96-2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/sandi-benedicta-dukV-jtyRlg-unsplash-square_900x_9fcf9828-f7f0-4382-aa20-55d23696efbf.gif",
+              "wide": false,
+              "tall": false,
+              "retain-ratio": false,
+              "title": "WHAT BROW SHADE AM I?",
+              "link-url": "",
+              "link-text": "FIND MY SHADE"
+            }
+          },
+          "1605598890c8501c96-3": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ultimate-Arch-Definer-3.jpg",
+              "wide": false,
+              "tall": false,
+              "retain-ratio": false,
+              "title": "ULTIMATE ARCH DEFINER",
+              "link-url": "",
+              "link-text": "SHOP NOW"
+            }
+          }
+        },
+        "block_order": [
+          "1605598890c8501c96-0",
+          "1605598890c8501c96-1",
+          "1605598890c8501c96-2",
+          "1605598890c8501c96-3"
+        ],
+        "settings": {
+          "text-style": "light-with-overlay",
+          "bg_color": "#f7f7f7",
+          "spacing": true,
+          "container-width": 4,
+          "width": 4,
+          "mobile-width": "2",
+          "title": "",
+          "subtitle": "",
+          "link-url": "",
+          "link-text": "",
+          "padding_top": "20px",
+          "padding_bottom": "20px"
+        }
+      },
+      "framework--product-recommendations": {
+        "type": "framework--product-recommendations",
+        "settings": {
+          "product-similar-products-show": true,
+          "product-similar-products-heading": "COMPLETE YOUR LOOK"
+        }
+      },
+      "161783390576020de3": {
+        "type": "framework--featured-content",
+        "settings": {
+          "full-width": true,
+          "background_color": "#37573d",
+          "text-position": "center",
+          "text-width": "large",
+          "overlap": false,
+          "transparent-overlap": false,
+          "alternative-color": false,
+          "mobile-overlay": true,
+          "image": "shopify:\/\/shop_images\/Cover_Image.jpg",
+          "image-height": "small",
+          "parallax-enabled": true,
+          "apply-overlay": false,
+          "title": "",
+          "description": "",
+          "link-url": "",
+          "link-text": "",
+          "padding_top": "0px",
+          "padding_bottom": "0px"
+        }
+      },
+      "framework--blog": {
+        "type": "framework--blog",
+        "settings": {
+          "show-title": true,
+          "show-tag-filter": true,
+          "show-excerpt": true,
+          "show-rss": false,
+          "columns": 2,
+          "show-featured": true,
+          "tag": "featured",
+          "image-height": "medium",
+          "alt-color": true,
+          "parallax-enabled": false,
+          "apply-overlay": true
+        }
+      },
+      "1619777574283377c0": {
+        "type": "framework--image-with-text-below",
+        "blocks": {
+          "1619777574283377c0-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/SHEERLUXE_300x_d8785b00-7d17-45c4-80e8-1a9080025382.jpg",
+              "title": "",
+              "description": "",
+              "link-url": "",
+              "link-text": ""
+            }
+          },
+          "1619777574283377c0-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/STYLIST_300x_3876b38e-9635-488f-a4e1-17c15279c8a7.jpg",
+              "title": "",
+              "description": "",
+              "link-url": "",
+              "link-text": ""
+            }
+          },
+          "1619777574283377c0-2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/VOGUE_300x_893ff921-cd86-4397-a2df-1e8a3b4ec71c.jpg",
+              "title": "",
+              "description": "",
+              "link-url": "",
+              "link-text": ""
+            }
+          },
+          "1619777574283377c0-3": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/GLAMOUR_300x_2be5aeca-4a5f-4a8e-84b6-e9caead2f38f.jpg",
+              "title": "",
+              "description": "",
+              "link-url": "",
+              "link-text": ""
+            }
+          }
+        },
+        "block_order": [
+          "1619777574283377c0-0",
+          "1619777574283377c0-1",
+          "1619777574283377c0-2",
+          "1619777574283377c0-3"
+        ],
+        "settings": {
+          "bg_color": "#ffffff",
+          "spacing": true,
+          "container-width": 4,
+          "width": 4,
+          "image-width": 0,
+          "mobile-width": "2",
+          "title": "As Seen In",
+          "subtitle": "",
+          "link-url": "",
+          "link-text": "",
+          "padding_top": "72px",
+          "padding_bottom": "72px"
+        }
+      },
+      "1620217602bfbc79ef": {
+        "type": "framework--featured-content",
+        "settings": {
+          "full-width": true,
+          "background_color": "#37573d",
+          "text-position": "center",
+          "text-width": "small",
+          "overlap": false,
+          "transparent-overlap": false,
+          "alternative-color": false,
+          "mobile-overlay": true,
+          "image": "shopify:\/\/shop_images\/sandi-benedicta-dukV-jtyRlg-unsplash-square_900x_9fcf9828-f7f0-4382-aa20-55d23696efbf.gif",
+          "image-height": "small",
+          "parallax-enabled": true,
+          "apply-overlay": false,
+          "title": "What brow shade am I?",
+          "description": "<p>Eyebrows shades can be confusing but are simpler than you think.  BBB is all about less being more but eyebrow colour is essential to bring out the best in them while still looking natural.<\/p><p><\/p>",
+          "link-url": "",
+          "link-text": "",
+          "padding_top": "0px",
+          "padding_bottom": "0px"
+        }
+      },
+      "16206641127e9801f7": {
+        "type": "framework--image-text-overlay",
+        "blocks": {
+          "16206641127e9801f7-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Rosemist_copy.jpg",
+              "wide": false,
+              "tall": false,
+              "retain-ratio": true,
+              "title": "Rosewater Mist",
+              "link-url": "#",
+              "link-text": "SHOP NOW"
+            }
+          },
+          "16206641127e9801f7-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Ultra_Slim.jpg",
+              "wide": false,
+              "tall": false,
+              "retain-ratio": false,
+              "title": "Ultra Slim Definer",
+              "link-url": "#",
+              "link-text": "SHOP NOW"
+            }
+          },
+          "16206641127e9801f7-2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Clear_Brow_Gloss.jpg",
+              "wide": false,
+              "tall": false,
+              "retain-ratio": false,
+              "title": "Clear Brow Gloss",
+              "link-url": "#",
+              "link-text": "Shop Now"
+            }
+          }
+        },
+        "block_order": [
+          "16206641127e9801f7-0",
+          "16206641127e9801f7-1",
+          "16206641127e9801f7-2"
+        ],
+        "settings": {
+          "text-style": "hover",
+          "bg_color": "#f7f7f7",
+          "spacing": true,
+          "container-width": 3,
+          "width": 3,
+          "mobile-width": "2",
+          "title": "Conquer The Heat",
+          "subtitle": "Make sure you’re armed with our warm weather heroes, so you can beat the heat and keep brows looking their best from day to night.",
+          "link-url": "",
+          "link-text": "SHOP NOW",
+          "padding_top": "72px",
+          "padding_bottom": "72px"
+        }
+      },
+      "1621959350da700764": {
+        "type": "framework--featured-text",
+        "settings": {
+          "bg_color": "#ffffff",
+          "heading": "BBB London. A thoroughly modern approach to brows.",
+          "text": "<p>We love every kind of brow: from the full to the sparse, straight to the arched, fair to the dark and every single brow in between. Why? Because brows are innately personal. And as the British brow authority, we’re on a mission to help you find the beauty in your own brows. No rules, no templates, no copy and paste: BBB London stands for brow individuality. <\/p>",
+          "padding_top": "72px",
+          "padding_bottom": "72px"
+        }
+      },
+      "1621970509bef8cf0a": {
+        "type": "framework--featured-content",
+        "disabled": true,
+        "settings": {
+          "full-width": true,
+          "background_color": "#37573d",
+          "text-position": "left",
+          "text-width": "large",
+          "overlap": true,
+          "transparent-overlap": false,
+          "alternative-color": false,
+          "mobile-overlay": true,
+          "image-height": "medium",
+          "parallax-enabled": false,
+          "apply-overlay": false,
+          "title": "JESS DINER VOGUE",
+          "description": "<p>“I have found my comfort zone in monthly  threading  sessions at my beloved Blink Brow Bar. It’s the one beauty treatment that I’m fastidious about and will never miss.”<\/p>",
+          "link-url": "",
+          "link-text": "",
+          "padding_top": "20px",
+          "padding_bottom": "20px"
+        }
+      },
+      "1621974713811f7d7b": {
+        "type": "framework--featured-content",
+        "settings": {
+          "full-width": true,
+          "background_color": "#37573d",
+          "text-position": "right",
+          "text-width": "large",
+          "overlap": false,
+          "transparent-overlap": false,
+          "alternative-color": false,
+          "mobile-overlay": false,
+          "image": "shopify:\/\/shop_images\/Header.jpg",
+          "image-height": "medium",
+          "parallax-enabled": false,
+          "apply-overlay": false,
+          "title": "Transformational Treatments",
+          "description": "",
+          "link-url": "",
+          "link-text": "BOOK NOW",
+          "padding_top": "0px",
+          "padding_bottom": "0px"
+        }
+      },
+      "16233381782429729c": {
+        "type": "text-slide",
+        "blocks": {
+          "58293446-1e6a-4353-b6bc-02769b4219f1": {
+            "type": "text",
+            "settings": {
+              "description": "<p>“I have found my comfort zone in monthly  threading  sessions at my beloved Blink Brow Bar. It’s the one beauty treatment that I’m fastidious about and will never miss.”<\/p>",
+              "name-text": "JESS DINER<br>\nVOGUE"
+            }
+          },
+          "0633949c-466d-48bd-a1bc-427bcd227479": {
+            "type": "text",
+            "settings": {
+              "description": "<p>“I have found my comfort zone in monthly  threading  sessions at my beloved Blink Brow Bar. It’s the one beauty treatment that I’m fastidious about and will never miss.”<\/p>",
+              "name-text": "JESS DINER<br>\nVOGUE 2"
+            }
+          }
+        },
+        "block_order": [
+          "58293446-1e6a-4353-b6bc-02769b4219f1",
+          "0633949c-466d-48bd-a1bc-427bcd227479"
+        ],
+        "settings": {
+          "bg_color": "#ffffff",
+          "padding_top": "100px",
+          "padding_bottom": "100px"
+        }
+      },
+      "collection-template-boost-pfs-filter": {
+        "type": "collection-template-boost-pfs-filter",
+        "settings": {
+          "switch_layout_filter": "switch_layout_filter_vertical",
+          "enable_filter_sticky": false,
+          "toolbar_filter_sticky_mobile": true,
+          "filter_layout": "filter_layout_slide",
+          "layout_type": "fullwidth",
+          "show_collection_image": true,
+          "show_collection_des": true,
+          "collection_header_bg_color": "",
+          "collection_header_text_color": "",
+          "show_toolbar_view_as": false,
+          "show_toolbar_product_count": false,
+          "show_toolbar_sort_by": true,
+          "show_toolbar_view_as_mobile": false,
+          "show_toolbar_product_count_mobile": false,
+          "show_toolbar_sort_by_mobile": true,
+          "view_as_type": "view_as_type_list_grid_multi_col",
+          "products_per_page": 24,
+          "products_per_row": 4,
+          "products_per_row_mobile": 2,
+          "product_item_type": "grid",
+          "product_item_layout": "no-border",
+          "text_alignment": "center",
+          "show_details_when_hovering": false,
+          "show_vendor": false,
+          "show_price": true,
+          "active_image_swap": true,
+          "show_product_review": true,
+          "show_sold_out_label": true,
+          "show_sale_label": true,
+          "show_sale_percent": false,
+          "product_label_has_border_radius": true,
+          "show_label_by_tag": false,
+          "product_item_label_position": "top_left",
+          "product_label_type": "rectangle",
+          "product_item_label_bg_color": "",
+          "product_item_label_text_color": "",
+          "show_product_label_image": false,
+          "product_item_title_color": "#454545",
+          "product_item_title_font": "itc_avant_garde_gothic_n4",
+          "product_item_title_font_size": 16,
+          "product_item_vendor_color": "#969595",
+          "product_item_vendor_font": "itc_avant_garde_gothic_n4",
+          "product_item_vendor_font_size": 12,
+          "product_item_price_color": "#454545",
+          "product_item_old_price_color": "#969595",
+          "product_item_sale_price_color": "#f30000",
+          "product_item_price_font": "itc_avant_garde_gothic_n4",
+          "product_item_price_font_size": 14,
+          "product_item_des_color": "#454545",
+          "product_item_des_font": "itc_avant_garde_gothic_n4",
+          "product_item_des_font_size": 14,
+          "display_item_swatch": true,
+          "show_item_swatch_tooltip": true,
+          "swatch_color_display_type": "swatch_color_display_type_image_color",
+          "swatch_color_event_change_image": "hover",
+          "swatches_color_shape": "circle",
+          "display_item_swatch_size": true,
+          "equal_height": "auto",
+          "ratio_width_height_other": "",
+          "equal_height_crop_image_position": "center"
+        }
+      },
+      "framework--featured-text": {
+        "type": "framework--featured-text",
+        "settings": {
+          "bg_color": "#ffffff",
+          "heading": "For Tips, Tricks & Brow Hacks Follow us",
+          "text": "<p> <a href=\"https:\/\/www.instagram.com\/blinkbrowbar\/\" target=\"_blank\" title=\"Blink Brow Bar Instagram \">@blinkbrowbar<\/a>   <a href=\"https:\/\/www.instagram.com\/explore\/tags\/getblinked\/\" target=\"_blank\" title=\"BBBLondon Blink Brow Bar Instagram hashtag #getblinked\">#getblinked<\/a><\/p>",
+          "padding_top": "72px",
+          "padding_bottom": "72px"
+        }
+      },
+      "instafeed": {
+        "type": "instafeed",
+        "settings": {
+          "heading_font": "linotype_didot_n4",
+          "heading_size": 20,
+          "feed_width": 100,
+          "html_area": ""
+        }
+      },
+      "framework--image-text-overlay": {
+        "type": "framework--image-text-overlay",
+        "blocks": {
+          "d3b5d4ab-f040-4b6b-8946-fb3d6fd54a66": {
+            "type": "image",
+            "settings": {
+              "wide": false,
+              "tall": false,
+              "retain-ratio": false,
+              "title": "",
+              "link-url": "",
+              "link-text": ""
+            }
+          },
+          "0436e7ce-8c56-4a4b-9c69-4fdf2bbe359b": {
+            "type": "image",
+            "settings": {
+              "wide": false,
+              "tall": false,
+              "retain-ratio": false,
+              "title": "",
+              "link-url": "",
+              "link-text": ""
+            }
+          },
+          "c18c0fd9-2788-40d8-853d-5ec55e259719": {
+            "type": "image",
+            "settings": {
+              "wide": false,
+              "tall": false,
+              "retain-ratio": false,
+              "title": "",
+              "link-url": "",
+              "link-text": ""
+            }
+          },
+          "e6152bde-c0a8-41ff-bc1c-7832f6933b2c": {
+            "type": "image",
+            "settings": {
+              "wide": false,
+              "tall": false,
+              "retain-ratio": false,
+              "title": "",
+              "link-url": "",
+              "link-text": ""
+            }
+          }
+        },
+        "block_order": [
+          "d3b5d4ab-f040-4b6b-8946-fb3d6fd54a66",
+          "0436e7ce-8c56-4a4b-9c69-4fdf2bbe359b",
+          "c18c0fd9-2788-40d8-853d-5ec55e259719",
+          "e6152bde-c0a8-41ff-bc1c-7832f6933b2c"
+        ],
+        "settings": {
+          "text-style": "light-with-overlay",
+          "bg_color": "#ffffff",
+          "spacing": true,
+          "container-width": 1,
+          "width": 4,
+          "mobile-width": "2",
+          "title": "Awards",
+          "subtitle": "",
+          "link-url": "",
+          "link-text": "",
+          "padding_top": "40px",
+          "padding_bottom": "40px"
+        }
+      },
+      "framework--featured-content": {
+        "type": "framework--featured-content",
+        "settings": {
+          "full-width": true,
+          "background_color": "#ebb9aa",
+          "text-position": "right",
+          "text-width": "large",
+          "overlap": false,
+          "transparent-overlap": false,
+          "alternative-color": true,
+          "mobile-overlay": false,
+          "image": "shopify:\/\/shop_images\/after_before.jpg",
+          "image-height": "small",
+          "parallax-enabled": false,
+          "apply-overlay": true,
+          "title": "BEFORE & AFTER",
+          "description": "",
+          "link-url": "",
+          "link-text": "",
+          "padding_top": "0",
+          "padding_bottom": "0"
+        }
+      },
+      "framework--image-with-text-below": {
+        "type": "framework--image-with-text-below",
+        "blocks": {
+          "42173b2c-90b8-4e5d-bec6-8f0947739e71": {
+            "type": "image",
+            "settings": {
+              "title": "Grid image",
+              "description": "<p>Add your description text here<\/p>",
+              "link-url": "",
+              "link-text": ""
+            }
+          },
+          "2afbac8e-1e8c-4846-a207-4d7ccbbd160f": {
+            "type": "image",
+            "settings": {
+              "title": "Grid image",
+              "description": "<p>Add your description text here<\/p>",
+              "link-url": "",
+              "link-text": ""
+            }
+          },
+          "5dcbde39-d503-4103-91da-962a86408c20": {
+            "type": "image",
+            "settings": {
+              "title": "Grid image",
+              "description": "<p>Add your description text here<\/p>",
+              "link-url": "",
+              "link-text": ""
+            }
+          },
+          "09da5096-144e-424c-888f-a445c8f2bd05": {
+            "type": "image",
+            "settings": {
+              "title": "Grid image",
+              "description": "<p>Add your description text here<\/p>",
+              "link-url": "",
+              "link-text": ""
+            }
+          }
+        },
+        "block_order": [
+          "42173b2c-90b8-4e5d-bec6-8f0947739e71",
+          "2afbac8e-1e8c-4846-a207-4d7ccbbd160f",
+          "5dcbde39-d503-4103-91da-962a86408c20",
+          "09da5096-144e-424c-888f-a445c8f2bd05"
+        ],
+        "settings": {
+          "bg_color": "#ffffff",
+          "spacing": true,
+          "container-width": 1,
+          "width": 4,
+          "image-width": 0,
+          "mobile-width": "2",
+          "title": "Brow Boosting Ingredients",
+          "subtitle": "",
+          "link-url": "",
+          "link-text": "",
+          "padding_top": "",
+          "padding_bottom": "20px"
+        }
+      },
+      "framework--featured-video": {
+        "type": "framework--featured-video",
+        "settings": {
+          "video-url": "https:\/\/youtu.be\/_9VUPq3SxOc",
+          "image": "shopify:\/\/shop_images\/Screenshot_2021-05-25_at_20.27.23.png",
+          "full-width": true,
+          "bg_color": "#f7f7f7",
+          "section-height": "small",
+          "darken-video": true,
+          "alt-text": true,
+          "heading": "",
+          "sub-heading": "",
+          "button-text": "",
+          "button-url": "",
+          "padding_top": "20px",
+          "padding_bottom": "20px"
+        }
+      },
+      "text-slide": {
+        "type": "text-slide",
+        "blocks": {
+          "809560bc-7fb0-445b-820a-564f180033f5": {
+            "type": "text",
+            "settings": {
+              "description": "<p>“I AM IN LOVE WITH THIS BROW GLOSS. IT MAKES THE WHOLE DRAMA OF GETTING TEDIOUS BROWS LESS TEDIOUS.”<\/p>",
+              "name-text": "FUNMI FENTO <br>\nTHE OBSERVER"
+            }
+          },
+          "8bc69c7f-d3dd-4785-b5ae-52793acc275a": {
+            "type": "text",
+            "settings": {
+              "description": "<p>“I AM IN LOVE WITH THIS BROW GLOSS. IT MAKES THE WHOLE DRAMA OF GETTING TEDIOUS BROWS LESS TEDIOUS.”<\/p>",
+              "name-text": "FUNMI FENTO <br>\nTHE OBSERVER"
+            }
+          },
+          "23b0b8f6-2e64-4dab-a770-e5a98f6a3607": {
+            "type": "text",
+            "settings": {
+              "description": "<p>“I AM IN LOVE WITH THIS BROW GLOSS. IT MAKES THE WHOLE DRAMA OF GETTING TEDIOUS BROWS LESS TEDIOUS.”<\/p>",
+              "name-text": "FUNMI FENTO <br>\nTHE OBSERVER"
+            }
+          },
+          "068fd885-2819-43f4-b944-150ac6d7e916": {
+            "type": "text",
+            "settings": {
+              "description": "<p>“I AM IN LOVE WITH THIS BROW GLOSS. IT MAKES THE WHOLE DRAMA OF GETTING TEDIOUS BROWS LESS TEDIOUS.”<\/p>",
+              "name-text": "FUNMI FENTO <br>\nTHE OBSERVER"
+            }
+          }
+        },
+        "block_order": [
+          "809560bc-7fb0-445b-820a-564f180033f5",
+          "8bc69c7f-d3dd-4785-b5ae-52793acc275a",
+          "23b0b8f6-2e64-4dab-a770-e5a98f6a3607",
+          "068fd885-2819-43f4-b944-150ac6d7e916"
+        ],
+        "settings": {
+          "bg_color": "#37573d",
+          "padding_top": "194px",
+          "padding_bottom": "70px"
+        }
+      },
+      "product-text-slide": {
+        "type": "product-text-slide",
+        "blocks": {
+          "beb33351-fcde-423f-b046-5e5992c2dfe5": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "description": "<p>“I AM IN LOVE WITH THIS BROW GLOSS. IT MAKES THE WHOLE DRAMA OF GETTING TEDIOUS BROWS LESS TEDIOUS.”<\/p>",
+              "name-text": "FUNMI FENTO <br>\nTHE OBSERVER"
+            }
+          },
+          "f6568bd6-ac89-4975-b86b-f159285994da": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "description": "<p>Lorem ipsum<\/p>",
+              "name-text": "title"
+            }
+          }
+        },
+        "block_order": [
+          "beb33351-fcde-423f-b046-5e5992c2dfe5",
+          "f6568bd6-ac89-4975-b86b-f159285994da"
+        ],
+        "settings": {
+          "bg_color": "#efc2b3",
+          "padding_top": "194px",
+          "padding_bottom": "70px"
+        }
+      },
+      "product-featured-in": {
+        "type": "product-featured-in",
+        "blocks": {
+          "27333718-9251-466b-a2a2-e4ea0f259838": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "wide": false,
+              "tall": false,
+              "retain-ratio": false,
+              "title": "",
+              "link-url": "",
+              "link-text": ""
+            }
+          },
+          "409edb32-604b-4f50-9bd9-c70864164292": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "wide": false,
+              "tall": false,
+              "retain-ratio": false,
+              "title": "",
+              "link-url": "",
+              "link-text": ""
+            }
+          },
+          "b1d90a1a-42f6-4efe-9b97-323c67bf435f": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "wide": false,
+              "tall": false,
+              "retain-ratio": false,
+              "title": "",
+              "link-url": "",
+              "link-text": ""
+            }
+          },
+          "7178f563-e98e-4bcc-8464-6d544d847a2b": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "wide": false,
+              "tall": false,
+              "retain-ratio": false,
+              "title": "",
+              "link-url": "",
+              "link-text": ""
+            }
+          }
+        },
+        "block_order": [
+          "27333718-9251-466b-a2a2-e4ea0f259838",
+          "409edb32-604b-4f50-9bd9-c70864164292",
+          "b1d90a1a-42f6-4efe-9b97-323c67bf435f",
+          "7178f563-e98e-4bcc-8464-6d544d847a2b"
+        ],
+        "settings": {
+          "text-style": "light-with-overlay",
+          "bg_color": "#ffffff",
+          "spacing": true,
+          "container-width": 1,
+          "width": 4,
+          "mobile-width": "2",
+          "title": "As Featured In",
+          "subtitle": "",
+          "link-url": "",
+          "link-text": "",
+          "padding_top": "60px",
+          "padding_bottom": "60px"
+        }
+      },
+      "featured-collection": {
+        "type": "featured-collection",
+        "settings": {
+          "title_collection": "Complete Your Look",
+          "info_collection": "",
+          "home-product-slider-collection": "bestsellers",
+          "max_products": 12,
+          "max_slider_item": 3,
+          "bg_color": "#ffffff",
+          "padding_top": "20px",
+          "padding_bottom": "20px"
+        }
+      },
+      "product--featured-content": {
+        "type": "product--featured-content",
+        "settings": {
+          "full-width": true,
+          "background_color": "#37573d",
+          "text-position": "right",
+          "text-width": "large",
+          "overlap": false,
+          "transparent-overlap": false,
+          "alternative-color": true,
+          "mobile-overlay": false,
+          "image-height": "small",
+          "parallax-enabled": false,
+          "apply-overlay": true,
+          "title": "",
+          "description": "",
+          "link-url": "",
+          "link-text": "",
+          "padding_top": "0",
+          "padding_bottom": "0"
+        }
+      },
+      "product--featured-video": {
+        "type": "product--featured-video",
+        "settings": {
+          "video-url": "",
+          "full-width": true,
+          "bg_color": "#f7f7f7",
+          "section-height": "small",
+          "darken-video": true,
+          "alt-text": true,
+          "heading": "",
+          "sub-heading": "",
+          "button-text": "",
+          "button-url": "",
+          "padding_top": "20px",
+          "padding_bottom": "20px"
+        }
+      },
+      "product--image-text-overlay": {
+        "type": "product--image-text-overlay",
+        "settings": {
+          "text-style": "light-with-overlay",
+          "bg_color": "#ffffff",
+          "spacing": true,
+          "container-width": 1,
+          "width": 4,
+          "mobile-width": "2",
+          "title": "",
+          "subtitle": "",
+          "link-url": "",
+          "link-text": "",
+          "padding_top": "40px",
+          "padding_bottom": "40px"
+        }
+      },
+      "product-featured-collection": {
+        "type": "product-featured-collection",
+        "settings": {
+          "title_collection": "",
+          "info_collection": "",
+          "home-product-slider-collection": "",
+          "max_products": 12,
+          "max_slider_item": 3,
+          "bg_color": "#ffffff",
+          "padding_top": "20px",
+          "padding_bottom": "20px"
+        }
+      },
+      "product--image-with-text-below": {
+        "type": "product--image-with-text-below",
+        "settings": {
+          "bg_color": "#ffffff",
+          "spacing": true,
+          "container-width": 3,
+          "width": 4,
+          "image-width": 0,
+          "mobile-width": "2",
+          "title": "Brow Boosting Ingredients",
+          "subtitle": "",
+          "link-url": "",
+          "link-text": "",
+          "padding_top": "",
+          "padding_bottom": "20px"
+        }
+      },
+      "treatment-text-section": {
+        "type": "treatment-text-section",
+        "settings": {
+          "description": "<p><strong>What can I expect?<\/strong><br\/>You will need to fill out a consultation card followed by a consultation with the therapist. You will then be ‘threaded’ and show a mirror during the treatment to ensure you are happy with the shape. After the treatment, you will be treated to a mini brow and head massage.<\/p><p><strong>What are the results?<\/strong><br\/>Because of the ability to guide the thread, you can ensure that the eyebrow are as symmetrical as possible. It also ensures the smallest of hairs are removed so that you are fuzz free. The thread also allows for precision when shaping which in turn results to a prefect positioned arch and shape of brow.<\/p>"
+        }
+      },
+      "treatment-text-section-2": {
+        "type": "treatment-text-section-2",
+        "settings": {
+          "description": "<p><strong>Can anyone have it?<\/strong><br\/>Yes, as long as there are hairs to remove.  The fuller the eyebrows, the better. The therapists then have a clear canvas to worth with.  If you have sensitive skin, ensure you have time after for the redness to subside.<\/p><p><strong>How long will it last?<\/strong><br\/>This  depends on  your hair  growth  cycle but we  would say  an average of 4 weeks. <\/p>"
+        }
+      },
+      "treatment-text-section-3": {
+        "type": "treatment-text-section-3",
+        "settings": {
+          "description": "<p><strong>How do I prepare for this treatment?<\/strong><br\/>If it is the first time, you may wish to pop info a trial to ensure that your skin won’t be too sensitive to threading.  Otherwise try not to wear make up, ensure the treatment  and the 1 minute massage (the best part  of all).<\/p><p><strong>Aftercare<\/strong><br\/>No make-up, hot showers or sun 24 hours after the treatment. <\/p>"
+        }
+      },
+      "treatment_collections_section": {
+        "type": "treatment_collections_section",
+        "blocks": {
+          "8b3fb48c-f36c-4109-81ab-de063c556207": {
+            "type": "text_block",
+            "settings": {
+              "page_handle": "treatment-name",
+              "page_title": "new 1"
+            }
+          },
+          "e619f67a-9fcf-4eea-8a9a-fca1dd78aaa8": {
+            "type": "text_block",
+            "settings": {
+              "page_handle": "treatment-name-2",
+              "page_title": "new2"
+            }
+          },
+          "7477efc3-772f-47b9-ac3b-aff2f2582cdd": {
+            "type": "text_block",
+            "settings": {
+              "page_handle": "treatment-name-3",
+              "page_title": "new3"
+            }
+          }
+        },
+        "block_order": [
+          "8b3fb48c-f36c-4109-81ab-de063c556207",
+          "e619f67a-9fcf-4eea-8a9a-fca1dd78aaa8",
+          "7477efc3-772f-47b9-ac3b-aff2f2582cdd"
+        ],
+        "settings": {
+          "title": "Which treatment can I combine it with?",
+          "description": "<p>Threading can go perfectly with any treatment to enhance your brows or lashes. It is the foundation of beauty and the perfect platform from other beauty treatments. The most common treatment is a tint which is done prior to threading to enhance colour<\/p>",
+          "notes": "<p>Do you have any further questions? Please visit our <a href=\"#\" title=\"#\">FAQs<\/a> or contact us at <a href=\"mailto:enquiries@blinkbrowbar.com\" title=\"mailto:enquiries@blinkbrowbar.com\">enquiries@blinkbrowbar.com<\/a><\/p>"
+        }
+      },
+      "reviews-placeholder": {
+        "type": "reviews-placeholder",
+        "settings": {}
+      },
+      "custom-fields-products": {
+        "type": "custom-fields-products",
+        "settings": {}
+      }
+    },
+    "content_for_index": [
+      "1519177052247",
+      "1621959350da700764",
+      "1621974713811f7d7b",
+      "16206641127e9801f7",
+      "1521155972652",
+      "1605598890c8501c96",
+      "1621970509bef8cf0a",
+      "16233381782429729c",
+      "1620217602bfbc79ef",
+      "1519177181912",
+      "1521156071253",
+      "1599542427196",
+      "1619777574283377c0",
+      "161783390576020de3"
+    ]
+  },
+  "presets": {
+    "Beauty": {
+      "color--accent": "#ffd7d7",
+      "color-text": "#212121",
+      "color--alternative": "#ffffff",
+      "color-page-bg": "#ffffff",
+      "color-panel-bg": "#fcfbfc",
+      "color-border": "#e0e0e0",
+      "color-button": "#ffffff",
+      "color-button-bg": "#212121",
+      "color-header-bg": "#ffeff0",
+      "color-header": "#212121",
+      "color-header-cart": "#272727",
+      "bg-color--footer": "#ffeff0",
+      "color--footer": "#212121",
+      "color-slider-caption": "#212121",
+      "color-slider-caption-bg": "#ffffff",
+      "color-slider-button": "#ffffff",
+      "color-slider-button-bg": "#212121",
+      "color-slider-nav": "#212121",
+      "color-tabs-accordions": "#f7f7f7",
+      "typography--heading": "roboto_n5",
+      "typography--heading--uppercase": false,
+      "typography--heading--size": "small",
+      "typography--accent": "karla_n4",
+      "typography--paragraph": "roboto_n4",
+      "typography--paragraph--size": "medium",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "transparent-menu": false,
+            "header-account-show": true,
+            "cart--icon": "text",
+            "header-menu-center": true,
+            "menu": "main-menu",
+            "show-currency-selector": true,
+            "show-locale-selector": true,
+            "header-logo-center": true,
+            "logo-height": 35
+          }
+        },
+        "framework--footer": {
+          "type": "framework--footer",
+          "blocks": {
+            "footer--about": {
+              "type": "about",
+              "settings": {
+                "about-title": "Store",
+                "text": "<p>© Your brand name here<\/p>",
+                "subscribe--show-social-icons": true
+              }
+            },
+            "footer--menu": {
+              "type": "menu",
+              "settings": {
+                "menu-title": "Info",
+                "menu": "footer"
+              }
+            },
+            "footer--subscribe": {
+              "type": "subscribe",
+              "settings": {
+                "newsletter--heading": "Subscribe",
+                "newsletter--info": "<p>Sign up to our mailing list<\/p>",
+                "subscribe--show-newsletter": true
+              }
+            }
+          },
+          "block_order": [
+            "footer--about",
+            "footer--menu",
+            "footer--subscribe"
+          ],
+          "settings": {
+            "show-currency-selector": true,
+            "show-locale-selector": true,
+            "show-payment-icons": true
+          }
+        },
+        "product": {
+          "type": "product",
+          "settings": {
+            "product-breadcrumbs-show": true,
+            "variant-style": "dropdowns",
+            "swatches-enabled": false,
+            "smart-payment-button": true,
+            "product-unavailable-form-show": true,
+            "low-in-stock-amount": 0,
+            "image-zoom-enabled": true,
+            "loop-enabled": false,
+            "cart-form-position": "left",
+            "product-size-chart-enabled": false,
+            "product-size-chart-option": "size",
+            "product-size-chart-page-content": "",
+            "product-share-show": true,
+            "product-share-twitter": true,
+            "product-share-facebook": true,
+            "product-share-pinterest": true
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "collections-breadcrumbs-show": true,
+            "collections-tags-show": true,
+            "show-title": false,
+            "collections-products-per-row": "4",
+            "mobile-items-per-row": "2"
+          }
+        },
+        "1519177052247": {
+          "type": "slideshow",
+          "blocks": {
+            "1519177052247-0": {
+              "type": "image",
+              "settings": {
+                "slide-title": "Slideshow",
+                "slide-tagline": "Introduce your store or campaign with this slideshow section.",
+                "slide-link-title": "Link to content",
+                "slide-y-pos": "middle",
+                "slide-x-pos": "left",
+                "slide-text-pos": "text-left"
+              }
+            },
+            "1519177052247-1": {
+              "type": "image",
+              "settings": {
+                "slide-title": "Slideshow",
+                "slide-tagline": "Introduce your store or campaign with this slideshow section.",
+                "slide-link-title": "Link to content",
+                "slide-y-pos": "middle",
+                "slide-x-pos": "left",
+                "slide-text-pos": "text-left"
+              }
+            }
+          },
+          "block_order": [
+            "1519177052247-0",
+            "1519177052247-1"
+          ],
+          "settings": {
+            "autoplay": true,
+            "transition_style": "default",
+            "rotate-frequency-range": 7
+          }
+        },
+        "1519177108222": {
+          "type": "framework--featured-content",
+          "settings": {
+            "full-width": true,
+            "text-position": "right",
+            "text-width": "small",
+            "overlap": false,
+            "transparent-overlap": false,
+            "alternative-color": false,
+            "mobile-overlay": true,
+            "image-height": "medium",
+            "parallax-enabled": false,
+            "apply-overlay": false,
+            "title": "Image with Text",
+            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>",
+            "link-text": ""
+          }
+        },
+        "1519177181912": {
+          "type": "featured-collection",
+          "settings": {
+            "home-product-slider-collection": "",
+            "max_products": 12
+          }
+        },
+        "1519177213210": {
+          "type": "framework--featured-content",
+          "settings": {
+            "full-width": true,
+            "text-position": "center",
+            "text-width": "large",
+            "overlap": true,
+            "transparent-overlap": true,
+            "alternative-color": true,
+            "mobile-overlay": true,
+            "image-height": "medium",
+            "parallax-enabled": false,
+            "apply-overlay": true,
+            "title": "Image with Text",
+            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>",
+            "link-text": ""
+          }
+        },
+        "1519177316120": {
+          "type": "framework--newsletter",
+          "settings": {
+            "background-color": "none",
+            "heading": "Subscribe to our newsletter",
+            "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1521155965634": {
+          "type": "framework--featured-text",
+          "settings": {
+            "heading": "Talk about your brand",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1521155972652": {
+          "type": "framework--featured-video",
+          "settings": {
+            "video-url": "",
+            "full-width": true,
+            "section-height": "regular",
+            "darken-video": true,
+            "alt-text": true,
+            "heading": "",
+            "sub-heading": "Add a subheading here",
+            "button-text": "button"
+          }
+        },
+        "1521155992953": {
+          "type": "framework--map",
+          "settings": {
+            "api-key": "",
+            "map-address": "391 Sutter St, San Francisco",
+            "background-color": "light",
+            "theme": "grayscale",
+            "heading": "Map",
+            "address": "<p>391 Sutter St,<br\/>San Francisco<br\/>CA 94108, USA<br\/><br\/>(555) 555-5555<\/p>",
+            "hours": "<p>Monday - Friday<br\/>10am - 6pm<br\/><br\/>Saturday - Sunday<br\/>12pm - 5pm<\/p>"
+          }
+        },
+        "1521156071253": {
+          "type": "framework--featured-content",
+          "settings": {
+            "full-width": false,
+            "text-position": "left",
+            "text-width": "small",
+            "overlap": true,
+            "transparent-overlap": false,
+            "alternative-color": false,
+            "mobile-overlay": true,
+            "image-height": "medium",
+            "parallax-enabled": false,
+            "apply-overlay": true,
+            "title": "Image with Text",
+            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>",
+            "link-text": ""
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "enabled": true,
+            "home-page-only": true,
+            "background-color": "accent",
+            "alternative-color": false
+          }
+        },
+        "1599542427196": {
+          "type": "framework--featured-blog",
+          "settings": {
+            "blog-heading": "Blog posts",
+            "blog": "news",
+            "tag-select": "pinned",
+            "show-date": true,
+            "show-excerpt": true,
+            "view-more-text": "View more"
+          }
+        },
+        "1605598890c8501c96": {
+          "type": "framework--image-text-overlay",
+          "blocks": {
+            "1605598890c8501c96-0": {
+              "type": "image",
+              "settings": {
+                "wide": true,
+                "tall": true,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            },
+            "1605598890c8501c96-1": {
+              "type": "image",
+              "settings": {
+                "wide": true,
+                "tall": false,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            },
+            "1605598890c8501c96-2": {
+              "type": "image",
+              "settings": {
+                "wide": false,
+                "tall": false,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            },
+            "1605598890c8501c96-3": {
+              "type": "image",
+              "settings": {
+                "wide": false,
+                "tall": false,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            }
+          },
+          "block_order": [
+            "1605598890c8501c96-0",
+            "1605598890c8501c96-1",
+            "1605598890c8501c96-2",
+            "1605598890c8501c96-3"
+          ],
+          "settings": {
+            "text-style": "light-with-overlay",
+            "spacing": true,
+            "container-width": 4,
+            "width": 4,
+            "mobile-width": "2",
+            "title": "Grid with overlay",
+            "subtitle": "",
+            "link-text": ""
+          }
+        },
+        "1605598898e2d908c6": {
+          "type": "framework--image-with-text-below",
+          "blocks": {
+            "1605598898e2d908c6-0": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            },
+            "1605598898e2d908c6-1": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            },
+            "1605598898e2d908c6-2": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            },
+            "1605598898e2d908c6-3": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            }
+          },
+          "block_order": [
+            "1605598898e2d908c6-0",
+            "1605598898e2d908c6-1",
+            "1605598898e2d908c6-2",
+            "1605598898e2d908c6-3"
+          ],
+          "settings": {
+            "spacing": true,
+            "container-width": 4,
+            "width": 4,
+            "image-width": 0,
+            "mobile-width": "2",
+            "title": "Grid with text below",
+            "subtitle": "",
+            "link-text": ""
+          }
+        }
+      },
+      "content_for_index": [
+        "1519177052247",
+        "1519177181912",
+        "1519177108222",
+        "1605598890c8501c96",
+        "1519177213210",
+        "1605598898e2d908c6",
+        "1521155965634",
+        "1521155972652",
+        "1521156071253",
+        "1599542427196",
+        "1521155992953",
+        "1519177316120"
+      ]
+    },
+    "Adorn": {
+      "color--accent": "#f7f2f2",
+      "color-text": "#212121",
+      "color--alternative": "#ffffff",
+      "color-page-bg": "#ffffff",
+      "color-panel-bg": "#f7f7f7",
+      "color-border": "#e0e0e0",
+      "color-button": "#ffffff",
+      "color-button-bg": "#212121",
+      "color-header-bg": "#ffffff",
+      "color-header": "#212121",
+      "color-header-cart": "#212121",
+      "bg-color--footer": "#f7f2f2",
+      "color--footer": "#212121",
+      "color-slider-caption": "#212121",
+      "color-slider-caption-bg": "#ffffff",
+      "color-slider-button": "#ffffff",
+      "color-slider-button-bg": "#212121",
+      "color-slider-nav": "#212121",
+      "color-tabs-accordions": "#e0e0e0",
+      "typography--heading": "itc_caslon_no_224_n4",
+      "typography--heading--uppercase": false,
+      "typography--heading--size": "large",
+      "typography--accent": "avenir_next_n4",
+      "typography--paragraph": "avenir_next_n4",
+      "typography--paragraph--size": "medium",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "transparent-menu": false,
+            "header-account-show": true,
+            "cart--icon": "text",
+            "header-menu-center": true,
+            "menu": "main-menu",
+            "show-currency-selector": true,
+            "show-locale-selector": true,
+            "header-logo-center": true,
+            "logo-height": 35
+          }
+        },
+        "framework--footer": {
+          "type": "framework--footer",
+          "blocks": {
+            "footer--about": {
+              "type": "about",
+              "settings": {
+                "about-title": "Store",
+                "text": "<p>© Your brand name here<\/p>",
+                "subscribe--show-social-icons": true
+              }
+            },
+            "footer--menu": {
+              "type": "menu",
+              "settings": {
+                "menu-title": "Info",
+                "menu": "footer"
+              }
+            },
+            "footer--subscribe": {
+              "type": "subscribe",
+              "settings": {
+                "newsletter--heading": "Subscribe",
+                "newsletter--info": "<p>Sign up to our mailing list<\/p>",
+                "subscribe--show-newsletter": true
+              }
+            }
+          },
+          "block_order": [
+            "footer--about",
+            "footer--menu",
+            "footer--subscribe"
+          ],
+          "settings": {
+            "show-currency-selector": true,
+            "show-locale-selector": true,
+            "show-payment-icons": true
+          }
+        },
+        "product": {
+          "type": "product",
+          "settings": {
+            "product-breadcrumbs-show": true,
+            "variant-style": "dropdowns",
+            "swatches-enabled": false,
+            "smart-payment-button": true,
+            "product-unavailable-form-show": true,
+            "low-in-stock-amount": 0,
+            "image-zoom-enabled": true,
+            "loop-enabled": false,
+            "cart-form-position": "left",
+            "product-size-chart-enabled": false,
+            "product-size-chart-option": "size",
+            "product-size-chart-page-content": "",
+            "product-share-show": true,
+            "product-share-twitter": true,
+            "product-share-facebook": true,
+            "product-share-pinterest": true
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "collections-breadcrumbs-show": true,
+            "collections-tags-show": true,
+            "show-title": false,
+            "collections-products-per-row": "4",
+            "mobile-items-per-row": "2"
+          }
+        },
+        "1519177052247": {
+          "type": "slideshow",
+          "blocks": {
+            "1519177052247-0": {
+              "type": "image",
+              "settings": {
+                "slide-title": "Slideshow",
+                "slide-tagline": "Introduce your store or campaign with this slideshow section.",
+                "slide-link-title": "Link to content",
+                "slide-y-pos": "middle",
+                "slide-x-pos": "left",
+                "slide-text-pos": "text-left"
+              }
+            },
+            "1519177052247-1": {
+              "type": "image",
+              "settings": {
+                "slide-title": "Slideshow",
+                "slide-tagline": "Introduce your store or campaign with this slideshow section.",
+                "slide-link-title": "Link to content",
+                "slide-y-pos": "middle",
+                "slide-x-pos": "left",
+                "slide-text-pos": "text-left"
+              }
+            }
+          },
+          "block_order": [
+            "1519177052247-0",
+            "1519177052247-1"
+          ],
+          "settings": {
+            "autoplay": true,
+            "transition_style": "default",
+            "rotate-frequency-range": 7
+          }
+        },
+        "1519177108222": {
+          "type": "framework--featured-content",
+          "settings": {
+            "full-width": true,
+            "text-position": "right",
+            "text-width": "small",
+            "overlap": false,
+            "transparent-overlap": false,
+            "alternative-color": false,
+            "mobile-overlay": true,
+            "image-height": "medium",
+            "parallax-enabled": false,
+            "apply-overlay": false,
+            "title": "Image with Text",
+            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>",
+            "link-text": ""
+          }
+        },
+        "1519177181912": {
+          "type": "featured-collection",
+          "settings": {
+            "home-product-slider-collection": "",
+            "max_products": 12
+          }
+        },
+        "1519177213210": {
+          "type": "framework--featured-content",
+          "settings": {
+            "full-width": true,
+            "text-position": "center",
+            "text-width": "large",
+            "overlap": true,
+            "transparent-overlap": true,
+            "alternative-color": true,
+            "mobile-overlay": true,
+            "image-height": "medium",
+            "parallax-enabled": false,
+            "apply-overlay": true,
+            "title": "Image with Text",
+            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>",
+            "link-text": ""
+          }
+        },
+        "1519177316120": {
+          "type": "framework--newsletter",
+          "settings": {
+            "background-color": "none",
+            "heading": "Subscribe to our newsletter",
+            "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1521155965634": {
+          "type": "framework--featured-text",
+          "settings": {
+            "heading": "Talk about your brand",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1521155972652": {
+          "type": "framework--featured-video",
+          "settings": {
+            "video-url": "",
+            "full-width": true,
+            "section-height": "regular",
+            "darken-video": true,
+            "alt-text": true,
+            "heading": "",
+            "sub-heading": "Add a subheading here",
+            "button-text": "button"
+          }
+        },
+        "1521155992953": {
+          "type": "framework--map",
+          "settings": {
+            "api-key": "",
+            "map-address": "391 Sutter St, San Francisco",
+            "background-color": "light",
+            "theme": "grayscale",
+            "heading": "Map",
+            "address": "<p>391 Sutter St,<br\/>San Francisco<br\/>CA 94108, USA<br\/><br\/>(555) 555-5555<\/p>",
+            "hours": "<p>Monday - Friday<br\/>10am - 6pm<br\/><br\/>Saturday - Sunday<br\/>12pm - 5pm<\/p>"
+          }
+        },
+        "1521156071253": {
+          "type": "framework--featured-content",
+          "settings": {
+            "full-width": false,
+            "text-position": "left",
+            "text-width": "small",
+            "overlap": true,
+            "transparent-overlap": false,
+            "alternative-color": false,
+            "mobile-overlay": true,
+            "image-height": "medium",
+            "parallax-enabled": false,
+            "apply-overlay": true,
+            "title": "Image with Text",
+            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>",
+            "link-text": ""
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "enabled": true,
+            "home-page-only": true,
+            "background-color": "accent",
+            "alternative-color": false
+          }
+        },
+        "1599542427196": {
+          "type": "framework--featured-blog",
+          "settings": {
+            "blog-heading": "Blog posts",
+            "blog": "news",
+            "tag-select": "pinned",
+            "show-date": true,
+            "show-excerpt": true,
+            "view-more-text": "View more"
+          }
+        },
+        "1605598890c8501c96": {
+          "type": "framework--image-text-overlay",
+          "blocks": {
+            "1605598890c8501c96-0": {
+              "type": "image",
+              "settings": {
+                "wide": true,
+                "tall": true,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            },
+            "1605598890c8501c96-1": {
+              "type": "image",
+              "settings": {
+                "wide": true,
+                "tall": false,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            },
+            "1605598890c8501c96-2": {
+              "type": "image",
+              "settings": {
+                "wide": false,
+                "tall": false,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            },
+            "1605598890c8501c96-3": {
+              "type": "image",
+              "settings": {
+                "wide": false,
+                "tall": false,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            }
+          },
+          "block_order": [
+            "1605598890c8501c96-0",
+            "1605598890c8501c96-1",
+            "1605598890c8501c96-2",
+            "1605598890c8501c96-3"
+          ],
+          "settings": {
+            "text-style": "light-with-overlay",
+            "spacing": true,
+            "container-width": 4,
+            "width": 4,
+            "mobile-width": "2",
+            "title": "Grid with overlay",
+            "subtitle": "",
+            "link-text": ""
+          }
+        },
+        "1605598898e2d908c6": {
+          "type": "framework--image-with-text-below",
+          "blocks": {
+            "1605598898e2d908c6-0": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            },
+            "1605598898e2d908c6-1": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            },
+            "1605598898e2d908c6-2": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            },
+            "1605598898e2d908c6-3": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            }
+          },
+          "block_order": [
+            "1605598898e2d908c6-0",
+            "1605598898e2d908c6-1",
+            "1605598898e2d908c6-2",
+            "1605598898e2d908c6-3"
+          ],
+          "settings": {
+            "spacing": true,
+            "container-width": 4,
+            "width": 4,
+            "image-width": 0,
+            "mobile-width": "2",
+            "title": "Grid with text below",
+            "subtitle": "",
+            "link-text": ""
+          }
+        }
+      },
+      "content_for_index": [
+        "1519177052247",
+        "1519177181912",
+        "1519177108222",
+        "1605598890c8501c96",
+        "1519177213210",
+        "1605598898e2d908c6",
+        "1521155965634",
+        "1521155972652",
+        "1521156071253",
+        "1599542427196",
+        "1521155992953",
+        "1519177316120"
+      ]
+    },
+    "Summer": {
+      "color--accent": "#ffe0c8",
+      "color-text": "#212121",
+      "color--alternative": "#ffffff",
+      "color-page-bg": "#ffffff",
+      "color-panel-bg": "#f7f7f7",
+      "color-border": "#e0e0e0",
+      "color-button": "#ffffff",
+      "color-button-bg": "#212121",
+      "color-header-bg": "#f7f7f7",
+      "color-header": "#212121",
+      "color-header-cart": "#212121",
+      "bg-color--footer": "#f7f7f7",
+      "color--footer": "#212121",
+      "color-slider-caption": "#212121",
+      "color-slider-caption-bg": "#ffffff",
+      "color-slider-button": "#ffffff",
+      "color-slider-button-bg": "#212121",
+      "color-slider-nav": "#212121",
+      "color-tabs-accordions": "#e0e0e0",
+      "typography--heading": "gill_sans_nova_n4",
+      "typography--heading--uppercase": false,
+      "typography--heading--size": "small",
+      "typography--accent": "gill_sans_nova_n4",
+      "typography--paragraph": "gill_sans_nova_n4",
+      "typography--paragraph--size": "medium",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "transparent-menu": false,
+            "header-account-show": true,
+            "cart--icon": "text",
+            "header-menu-center": true,
+            "menu": "main-menu",
+            "show-currency-selector": true,
+            "show-locale-selector": true,
+            "header-logo-center": true,
+            "logo-height": 35
+          }
+        },
+        "framework--footer": {
+          "type": "framework--footer",
+          "blocks": {
+            "footer--about": {
+              "type": "about",
+              "settings": {
+                "about-title": "Store",
+                "text": "<p>© Your brand name here<\/p>",
+                "subscribe--show-social-icons": true
+              }
+            },
+            "footer--menu": {
+              "type": "menu",
+              "settings": {
+                "menu-title": "Info",
+                "menu": "footer"
+              }
+            },
+            "footer--subscribe": {
+              "type": "subscribe",
+              "settings": {
+                "newsletter--heading": "Subscribe",
+                "newsletter--info": "<p>Sign up to our mailing list<\/p>",
+                "subscribe--show-newsletter": true
+              }
+            }
+          },
+          "block_order": [
+            "footer--about",
+            "footer--menu",
+            "footer--subscribe"
+          ],
+          "settings": {
+            "show-currency-selector": true,
+            "show-locale-selector": true,
+            "show-payment-icons": true
+          }
+        },
+        "product": {
+          "type": "product",
+          "settings": {
+            "product-breadcrumbs-show": true,
+            "variant-style": "dropdowns",
+            "swatches-enabled": false,
+            "smart-payment-button": true,
+            "product-unavailable-form-show": true,
+            "low-in-stock-amount": 0,
+            "image-zoom-enabled": true,
+            "loop-enabled": false,
+            "cart-form-position": "left",
+            "product-size-chart-enabled": false,
+            "product-size-chart-option": "size",
+            "product-size-chart-page-content": "",
+            "product-share-show": true,
+            "product-share-twitter": true,
+            "product-share-facebook": true,
+            "product-share-pinterest": true
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "collections-breadcrumbs-show": true,
+            "collections-tags-show": true,
+            "show-title": false,
+            "collections-products-per-row": "4",
+            "mobile-items-per-row": "2"
+          }
+        },
+        "1519177052247": {
+          "type": "slideshow",
+          "blocks": {
+            "1519177052247-0": {
+              "type": "image",
+              "settings": {
+                "slide-title": "Slideshow",
+                "slide-tagline": "Introduce your store or campaign with this slideshow section.",
+                "slide-link-title": "Link to content",
+                "slide-y-pos": "middle",
+                "slide-x-pos": "left",
+                "slide-text-pos": "text-left"
+              }
+            },
+            "1519177052247-1": {
+              "type": "image",
+              "settings": {
+                "slide-title": "Slideshow",
+                "slide-tagline": "Introduce your store or campaign with this slideshow section.",
+                "slide-link-title": "Link to content",
+                "slide-y-pos": "middle",
+                "slide-x-pos": "left",
+                "slide-text-pos": "text-left"
+              }
+            }
+          },
+          "block_order": [
+            "1519177052247-0",
+            "1519177052247-1"
+          ],
+          "settings": {
+            "autoplay": true,
+            "transition_style": "default",
+            "rotate-frequency-range": 7
+          }
+        },
+        "1519177108222": {
+          "type": "framework--featured-content",
+          "settings": {
+            "full-width": true,
+            "text-position": "right",
+            "text-width": "small",
+            "overlap": false,
+            "transparent-overlap": false,
+            "alternative-color": false,
+            "mobile-overlay": true,
+            "image-height": "medium",
+            "parallax-enabled": false,
+            "apply-overlay": false,
+            "title": "Image with Text",
+            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>",
+            "link-text": ""
+          }
+        },
+        "1519177181912": {
+          "type": "featured-collection",
+          "settings": {
+            "home-product-slider-collection": "",
+            "max_products": 12
+          }
+        },
+        "1519177213210": {
+          "type": "framework--featured-content",
+          "settings": {
+            "full-width": true,
+            "text-position": "center",
+            "text-width": "large",
+            "overlap": true,
+            "transparent-overlap": true,
+            "alternative-color": true,
+            "mobile-overlay": true,
+            "image-height": "medium",
+            "parallax-enabled": false,
+            "apply-overlay": true,
+            "title": "Image with Text",
+            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>",
+            "link-text": ""
+          }
+        },
+        "1519177316120": {
+          "type": "framework--newsletter",
+          "settings": {
+            "background-color": "none",
+            "heading": "Subscribe to our newsletter",
+            "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1521155965634": {
+          "type": "framework--featured-text",
+          "settings": {
+            "heading": "Talk about your brand",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1521155972652": {
+          "type": "framework--featured-video",
+          "settings": {
+            "video-url": "",
+            "full-width": true,
+            "section-height": "regular",
+            "darken-video": true,
+            "alt-text": true,
+            "heading": "",
+            "sub-heading": "Add a subheading here",
+            "button-text": "button"
+          }
+        },
+        "1521155992953": {
+          "type": "framework--map",
+          "settings": {
+            "api-key": "",
+            "map-address": "391 Sutter St, San Francisco",
+            "background-color": "light",
+            "theme": "grayscale",
+            "heading": "Map",
+            "address": "<p>391 Sutter St,<br\/>San Francisco<br\/>CA 94108, USA<br\/><br\/>(555) 555-5555<\/p>",
+            "hours": "<p>Monday - Friday<br\/>10am - 6pm<br\/><br\/>Saturday - Sunday<br\/>12pm - 5pm<\/p>"
+          }
+        },
+        "1521156071253": {
+          "type": "framework--featured-content",
+          "settings": {
+            "full-width": false,
+            "text-position": "left",
+            "text-width": "small",
+            "overlap": true,
+            "transparent-overlap": false,
+            "alternative-color": false,
+            "mobile-overlay": true,
+            "image-height": "medium",
+            "parallax-enabled": false,
+            "apply-overlay": true,
+            "title": "Image with Text",
+            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>",
+            "link-text": ""
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "enabled": true,
+            "home-page-only": true,
+            "background-color": "accent",
+            "alternative-color": false
+          }
+        },
+        "1599542427196": {
+          "type": "framework--featured-blog",
+          "settings": {
+            "blog-heading": "Blog posts",
+            "blog": "news",
+            "tag-select": "pinned",
+            "show-date": true,
+            "show-excerpt": true,
+            "view-more-text": "View more"
+          }
+        },
+        "1605598890c8501c96": {
+          "type": "framework--image-text-overlay",
+          "blocks": {
+            "1605598890c8501c96-0": {
+              "type": "image",
+              "settings": {
+                "wide": true,
+                "tall": true,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            },
+            "1605598890c8501c96-1": {
+              "type": "image",
+              "settings": {
+                "wide": true,
+                "tall": false,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            },
+            "1605598890c8501c96-2": {
+              "type": "image",
+              "settings": {
+                "wide": false,
+                "tall": false,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            },
+            "1605598890c8501c96-3": {
+              "type": "image",
+              "settings": {
+                "wide": false,
+                "tall": false,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            }
+          },
+          "block_order": [
+            "1605598890c8501c96-0",
+            "1605598890c8501c96-1",
+            "1605598890c8501c96-2",
+            "1605598890c8501c96-3"
+          ],
+          "settings": {
+            "text-style": "light-with-overlay",
+            "spacing": true,
+            "container-width": 4,
+            "width": 4,
+            "mobile-width": "2",
+            "title": "Grid with overlay",
+            "subtitle": "",
+            "link-text": ""
+          }
+        },
+        "1605598898e2d908c6": {
+          "type": "framework--image-with-text-below",
+          "blocks": {
+            "1605598898e2d908c6-0": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            },
+            "1605598898e2d908c6-1": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            },
+            "1605598898e2d908c6-2": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            },
+            "1605598898e2d908c6-3": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            }
+          },
+          "block_order": [
+            "1605598898e2d908c6-0",
+            "1605598898e2d908c6-1",
+            "1605598898e2d908c6-2",
+            "1605598898e2d908c6-3"
+          ],
+          "settings": {
+            "spacing": true,
+            "container-width": 4,
+            "width": 4,
+            "image-width": 0,
+            "mobile-width": "2",
+            "title": "Grid with text below",
+            "subtitle": "",
+            "link-text": ""
+          }
+        }
+      },
+      "content_for_index": [
+        "1519177052247",
+        "1519177181912",
+        "1519177108222",
+        "1605598890c8501c96",
+        "1519177213210",
+        "1605598898e2d908c6",
+        "1521155965634",
+        "1521155972652",
+        "1521156071253",
+        "1599542427196",
+        "1521155992953",
+        "1519177316120"
+      ]
+    },
+    "Deli": {
+      "color--accent": "#fb8a68",
+      "color-text": "#212121",
+      "color--alternative": "#ffffff",
+      "color-page-bg": "#ffffff",
+      "color-panel-bg": "#f7f7f7",
+      "color-border": "#e0e0e0",
+      "color-button": "#ffffff",
+      "color-button-bg": "#212121",
+      "color-header-bg": "#fafafa",
+      "color-header": "#212121",
+      "color-header-cart": "#212121",
+      "bg-color--footer": "#f7f7f7",
+      "color--footer": "#212121",
+      "color-slider-caption": "#212121",
+      "color-slider-caption-bg": "#ffffff",
+      "color-slider-button": "#ffffff",
+      "color-slider-button-bg": "#212121",
+      "color-slider-nav": "#212121",
+      "color-tabs-accordions": "#e0e0e0",
+      "typography--heading": "futura_n4",
+      "typography--heading--uppercase": false,
+      "typography--heading--size": "medium",
+      "typography--accent": "karla_n4",
+      "typography--paragraph": "karla_n4",
+      "typography--paragraph--size": "medium",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "transparent-menu": false,
+            "header-account-show": true,
+            "cart--icon": "text",
+            "header-menu-center": true,
+            "menu": "main-menu",
+            "show-currency-selector": true,
+            "show-locale-selector": true,
+            "header-logo-center": true,
+            "logo-height": 35
+          }
+        },
+        "framework--footer": {
+          "type": "framework--footer",
+          "blocks": {
+            "footer--about": {
+              "type": "about",
+              "settings": {
+                "about-title": "Store",
+                "text": "<p>© Your brand name here<\/p>",
+                "subscribe--show-social-icons": true
+              }
+            },
+            "footer--menu": {
+              "type": "menu",
+              "settings": {
+                "menu-title": "Info",
+                "menu": "footer"
+              }
+            },
+            "footer--subscribe": {
+              "type": "subscribe",
+              "settings": {
+                "newsletter--heading": "Subscribe",
+                "newsletter--info": "<p>Sign up to our mailing list<\/p>",
+                "subscribe--show-newsletter": true
+              }
+            }
+          },
+          "block_order": [
+            "footer--about",
+            "footer--menu",
+            "footer--subscribe"
+          ],
+          "settings": {
+            "show-currency-selector": true,
+            "show-locale-selector": true,
+            "show-payment-icons": true
+          }
+        },
+        "product": {
+          "type": "product",
+          "settings": {
+            "product-breadcrumbs-show": true,
+            "variant-style": "dropdowns",
+            "swatches-enabled": false,
+            "smart-payment-button": true,
+            "product-unavailable-form-show": true,
+            "low-in-stock-amount": 0,
+            "image-zoom-enabled": true,
+            "loop-enabled": false,
+            "cart-form-position": "left",
+            "product-size-chart-enabled": false,
+            "product-size-chart-option": "size",
+            "product-size-chart-page-content": "",
+            "product-share-show": true,
+            "product-share-twitter": true,
+            "product-share-facebook": true,
+            "product-share-pinterest": true
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "collections-breadcrumbs-show": true,
+            "collections-tags-show": true,
+            "show-title": false,
+            "collections-products-per-row": "4",
+            "mobile-items-per-row": "2"
+          }
+        },
+        "1519177052247": {
+          "type": "slideshow",
+          "blocks": {
+            "1519177052247-0": {
+              "type": "image",
+              "settings": {
+                "slide-title": "Slideshow",
+                "slide-tagline": "Introduce your store or campaign with this slideshow section.",
+                "slide-link-title": "Link to content",
+                "slide-y-pos": "middle",
+                "slide-x-pos": "left",
+                "slide-text-pos": "text-left"
+              }
+            },
+            "1519177052247-1": {
+              "type": "image",
+              "settings": {
+                "slide-title": "Slideshow",
+                "slide-tagline": "Introduce your store or campaign with this slideshow section.",
+                "slide-link-title": "Link to content",
+                "slide-y-pos": "middle",
+                "slide-x-pos": "left",
+                "slide-text-pos": "text-left"
+              }
+            }
+          },
+          "block_order": [
+            "1519177052247-0",
+            "1519177052247-1"
+          ],
+          "settings": {
+            "autoplay": true,
+            "transition_style": "default",
+            "rotate-frequency-range": 7
+          }
+        },
+        "1519177108222": {
+          "type": "framework--featured-content",
+          "settings": {
+            "full-width": true,
+            "text-position": "right",
+            "text-width": "small",
+            "overlap": false,
+            "transparent-overlap": false,
+            "alternative-color": true,
+            "mobile-overlay": true,
+            "image-height": "medium",
+            "parallax-enabled": false,
+            "apply-overlay": false,
+            "title": "Image with Text",
+            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>",
+            "link-text": ""
+          }
+        },
+        "1519177181912": {
+          "type": "featured-collection",
+          "settings": {
+            "home-product-slider-collection": "",
+            "max_products": 12
+          }
+        },
+        "1519177213210": {
+          "type": "framework--featured-content",
+          "settings": {
+            "full-width": true,
+            "text-position": "center",
+            "text-width": "large",
+            "overlap": true,
+            "transparent-overlap": true,
+            "alternative-color": true,
+            "mobile-overlay": true,
+            "image-height": "medium",
+            "parallax-enabled": false,
+            "apply-overlay": true,
+            "title": "Image with Text",
+            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>",
+            "link-text": ""
+          }
+        },
+        "1519177316120": {
+          "type": "framework--newsletter",
+          "settings": {
+            "background-color": "none",
+            "heading": "Subscribe to our newsletter",
+            "newsletter--subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1521155965634": {
+          "type": "framework--featured-text",
+          "settings": {
+            "heading": "Talk about your brand",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1521155972652": {
+          "type": "framework--featured-video",
+          "settings": {
+            "video-url": "",
+            "full-width": true,
+            "section-height": "regular",
+            "darken-video": true,
+            "alt-text": true,
+            "heading": "",
+            "sub-heading": "Add a subheading here",
+            "button-text": "button"
+          }
+        },
+        "1521155992953": {
+          "type": "framework--map",
+          "settings": {
+            "api-key": "",
+            "map-address": "391 Sutter St, San Francisco",
+            "background-color": "light",
+            "theme": "grayscale",
+            "heading": "Map",
+            "address": "<p>391 Sutter St,<br\/>San Francisco<br\/>CA 94108, USA<br\/><br\/>(555) 555-5555<\/p>",
+            "hours": "<p>Monday - Friday<br\/>10am - 6pm<br\/><br\/>Saturday - Sunday<br\/>12pm - 5pm<\/p>"
+          }
+        },
+        "1521156071253": {
+          "type": "framework--featured-content",
+          "settings": {
+            "full-width": false,
+            "text-position": "left",
+            "text-width": "small",
+            "overlap": true,
+            "transparent-overlap": false,
+            "alternative-color": false,
+            "mobile-overlay": true,
+            "image-height": "medium",
+            "parallax-enabled": false,
+            "apply-overlay": true,
+            "title": "Image with Text",
+            "description": "<p>Use a combination of image and text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store<\/p>",
+            "link-text": ""
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "enabled": true,
+            "home-page-only": true,
+            "background-color": "accent",
+            "alternative-color": true
+          }
+        },
+        "1599542427196": {
+          "type": "framework--featured-blog",
+          "settings": {
+            "blog-heading": "Blog posts",
+            "blog": "news",
+            "tag-select": "pinned",
+            "show-date": true,
+            "show-excerpt": true,
+            "view-more-text": "View more"
+          }
+        },
+        "1605598890c8501c96": {
+          "type": "framework--image-text-overlay",
+          "blocks": {
+            "1605598890c8501c96-0": {
+              "type": "image",
+              "settings": {
+                "wide": true,
+                "tall": true,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            },
+            "1605598890c8501c96-1": {
+              "type": "image",
+              "settings": {
+                "wide": true,
+                "tall": false,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            },
+            "1605598890c8501c96-2": {
+              "type": "image",
+              "settings": {
+                "wide": false,
+                "tall": false,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            },
+            "1605598890c8501c96-3": {
+              "type": "image",
+              "settings": {
+                "wide": false,
+                "tall": false,
+                "retain-ratio": false,
+                "title": "Grid image",
+                "link-text": "View more"
+              }
+            }
+          },
+          "block_order": [
+            "1605598890c8501c96-0",
+            "1605598890c8501c96-1",
+            "1605598890c8501c96-2",
+            "1605598890c8501c96-3"
+          ],
+          "settings": {
+            "text-style": "light-with-overlay",
+            "spacing": true,
+            "container-width": 4,
+            "width": 4,
+            "mobile-width": "2",
+            "title": "Grid with overlay",
+            "subtitle": "",
+            "link-text": ""
+          }
+        },
+        "1605598898e2d908c6": {
+          "type": "framework--image-with-text-below",
+          "blocks": {
+            "1605598898e2d908c6-0": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            },
+            "1605598898e2d908c6-1": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            },
+            "1605598898e2d908c6-2": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            },
+            "1605598898e2d908c6-3": {
+              "type": "image",
+              "settings": {
+                "title": "Grid image",
+                "description": "<p>Add your description text here<\/p>",
+                "link-text": "View more"
+              }
+            }
+          },
+          "block_order": [
+            "1605598898e2d908c6-0",
+            "1605598898e2d908c6-1",
+            "1605598898e2d908c6-2",
+            "1605598898e2d908c6-3"
+          ],
+          "settings": {
+            "spacing": true,
+            "container-width": 4,
+            "width": 4,
+            "image-width": 0,
+            "mobile-width": "2",
+            "title": "Grid with text below",
+            "subtitle": "",
+            "link-text": ""
+          }
+        }
+      },
+      "content_for_index": [
+        "1519177052247",
+        "1519177181912",
+        "1519177108222",
+        "1605598890c8501c96",
+        "1519177213210",
+        "1605598898e2d908c6",
+        "1521155965634",
+        "1521155972652",
+        "1521156071253",
+        "1599542427196",
+        "1521155992953",
+        "1519177316120"
+      ]
+    }
+  }
+}

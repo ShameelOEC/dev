@@ -1,0 +1,32 @@
+{% if settings.cart--type == 'drawer' %}
+  <div
+    class="cart--open-right off-canvas--open"
+    data-off-canvas--open="right-sidebar"
+    data-off-canvas--view="cart"
+    aria-haspopup=”menu”
+  >
+{% endif %}
+
+<a
+  class="header--cart-link"
+  data-item="accent-text"
+  href="{{ routes.cart_url }}"
+  aria-label="{{ 'layout.header.cart' | t }}"
+>
+
+  {% if cart_icon == 'text' %}
+    {{ 'layout.header.cart' | t }}
+  {% elsif cart_icon == 'bag' %}
+    {% render 'framework--icons', icon: 'bag' %}
+  {% else %}
+    {% render 'framework--icons', icon: 'cart' %}
+  {% endif %}
+
+  <span class="header--cart-number" data-item-count="{{ cart.item_count }}">
+  (<span class="cart--external--total-items">{{ cart.item_count }}</span>)
+  </span>
+</a>
+
+{% if settings.cart--type == 'drawer' %}
+  </div>
+{% endif %}

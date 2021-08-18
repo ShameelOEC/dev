@@ -1,0 +1,130 @@
+<!--/ page handle diffrentiates with each page -->
+{% assign page_handle = collection.handle %}
+
+{% if section.blocks.size > 0 %}
+<div class="treatment_collections_section">
+  <div class="container">
+    <div class="main_head">
+      <h3>{{section.settings.title}}</h3>
+      <div class="col_description">{{section.settings.description}}</div>
+    </div>
+    <div class="blocks">
+      {% for block in section.blocks %}
+      {% assign page_content = block.settings.page_handle %}  
+      <div class="block">
+        <img src="{{collections[page_content].image | img_url:'master'}}">
+        <h3>{{collections[page_content].title}}</h3>
+        <a href="{{collections[page_content].url}}">View More</a>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="notes">{{section.settings.notes}}</div>
+  </div>
+</div>
+{% endif %}
+<style>
+  .treatment_collections_section {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .main_head {
+    padding: 0 15px;
+  }
+  .main_head .col_description {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .main_head h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  .main_head .col_description {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .blocks {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 40px 30px;
+  }
+  .block h3 {
+    color: #454545;
+    font-weight: 400;
+    font-style: inherit;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: "ITC Avant Garde Gothic", sans-serif;
+  }
+  .block a {
+    background-color: #454545;
+    color: #fff;
+    height: 45px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 14px;
+  } 
+  @media(max-width:450px){
+    .blocks {
+      grid-template-columns: repeat(1,auto);
+      padding: 0 15px;
+    }
+    .main_head h3 {
+      font-size: 18px;
+    }
+    .main_head .col_description {
+      font-size: 12px;
+    }
+
+  }
+</style>
+
+{% schema %}
+{
+"name": "Treatments Collection",
+"class": "index-section",
+"settings": [
+{
+"type": "text",
+"id": "title",
+"label": "Common Title"
+},
+{
+"type": "richtext",
+"id": "description",
+"label": "Main Description",
+"default": "<p>Threading can go perfectly with any treatment to enhance your brows or lashes.</p>"
+},
+{
+"type":"richtext",
+"id":"notes",
+"label":"Collection Notes",
+"default": "<p>Do you have any further questions? Please visit FAQs or contact us at.</p>"
+}
+],
+"blocks": [
+{
+"type": "text_block",
+"name": "Page Management",
+"settings": [
+{
+"type": "collection",
+"id": "page_handle",
+"label": "Select a Collection"
+},
+{
+"type": "text",
+"id": "page_title",
+"label": "Page title"
+}
+
+]
+}
+]
+}
+{% endschema %}

@@ -1,0 +1,63 @@
+<script>
+  var theme = {};
+  theme.assets = {};
+  theme.classes = {};
+  theme.partials = {};
+  theme.popup = {};
+  theme.settings = {};
+  theme.shop = {};
+  theme.swatches = {};
+  theme.templates = {};
+  theme.translations = {};
+  theme.urls = {};
+  theme.utils = {};
+
+  theme.assets.carousel = '{{ "owl.carousel.min.js" | asset_url }}';
+  theme.assets.masonry = '{{ "masonry.min.js" | asset_url }}';
+  theme.assets.stylesheet = '{{ "theme--async.css" | asset_url }}';
+
+  theme.popup.enabled = {{ settings.popup--enabled }};
+  theme.popup.test_mode = {{ settings.popup--test-mode }};
+  theme.popup.newsletter_enabled = {{ settings.popup--newsletter--enabled }};
+  theme.popup.social_icons_enabled = {{ settings.popup--social-icons--enabled }};
+  theme.popup.show_image_enabled = '{{ settings.popup--image.size }}';
+  theme.popup.show_image_enabled = theme.popup.show_image_enabled > 0 ? true : false;
+  theme.popup.image_link = '{{ settings.popup--image-url }}';
+  theme.popup.seconds_until = {{ settings.popup--seconds-range }};
+  theme.popup.page_content = '{{ settings.popup--page-content }}';
+  theme.popup.days_until = '{{ settings.popup--days-range }}';
+  theme.popup.storage_key = 'troop_popup_storage';
+
+  {% comment %} So it doesnt get picked up by og:image {% endcomment %}
+  {% if settings.popup--image %}
+    theme.popup.show_image_url =
+      '{{ settings.popup--image | img_url: "1200x" | img_tag: settings.popup--image.alt | default: "" }}';
+  {% endif %}
+
+  theme.settings.cart_type = '{{ settings.cart--type }}';
+  theme.shop.money_format = {{ shop.money_format | json }};
+  theme.translations.newsletter_email_blank = '{{ "layout.footer.newsletter_email_blank" | t }}';
+  theme.translations.newsletter_name_blank = '{{ "layout.footer.newsletter_name_blank" | t }}';
+  theme.translations.add_to_cart = '{{ "products.add_to_cart" | t }}';
+  theme.translations.out_of_stock = '{{ "products.out_of_stock" | t }}';
+  theme.translations.size_chart_label = '{{ "products.size_chart" | t }}';
+  theme.translations.low_in_stock = {
+    one: '{{ "products.low_in_stock" | t: count: 1 }}',
+    other: '{{ "products.low_in_stock" | t: count: 2 }}'
+  };
+  theme.urls.cart = '{{ routes.cart_url }}';
+  theme.urls.collections = '{{ routes.collections_url }}';
+  theme.urls.product_recommendations = '{{ routes.product_recommendations_url }}';
+  theme.urls.search = '{{ routes.search_url }}';
+  theme.urls.shop = '{{ shop.url }}';
+  theme.utils.enable_external_links = true;
+  theme.utils.scroll_to_active_item = true
+
+  {% render 'framework--swatch-colors' %}
+
+  // LazySizes
+  window.lazySizesConfig = window.lazySizesConfig || {};
+  window.lazySizesConfig.expand = 1200;
+  window.lazySizesConfig.loadMode = 3;
+  window.lazySizesConfig.ricTimeout = 50;
+</script>

@@ -1,0 +1,80 @@
+<div data-full-width="true">
+  <div data-item="rte-content">
+    {{ page.content }}
+
+    <div class="locations-map">
+      <div class="locations-find">
+        <h2>Find a store</h2>
+        <input class="find-location" type="text" id="find-location" />
+        <div class="search-result">5 Stores found</div>
+
+        <div class="location-item">
+          <div class="name">LEDBURY ROAD NOTTING HILL</div>
+          <div class="details">
+            <div class="address">51 Ledbury Road, London, W11 2AA</div>
+            <div class="phone">020 7221 1663</div>
+            <div class="distance">0.3 Miles</div>
+            <div class="openhours-label">Opening Times</div>
+            <ul class="openhours-list">
+              <li><span>Monday</span><span>9-8</span></li>
+              <li><span>Tuesday</span><span>9-8</span></li>
+              <li><span>Wednesday</span><span>9-8</span></li>
+              <li><span>Thursday</span><span>9-8</span></li>
+              <li><span>Friday</span><span>9-8</span></li>
+              <li><span>Saturday</span><span>9-8</span></li>
+              <li><span>Sunday</span><span>9-8</span></li>
+            </ul>
+          </div>
+          <div class="actions">
+            <a href="#">Get Directions</a>
+            <a href="#">Book Appointment</a>
+          </div>
+        </div>
+
+        <div class="location-item">
+          <div class="name">LEDBURY ROAD NOTTING HILL</div>
+          <div class="details">
+            <div class="address">51 Ledbury Road, London, W11 2AA</div>
+            <div class="phone">020 7221 1663</div>
+            <div class="distance">0.3 Miles</div>
+            <div class="openhours-label">Opening Times</div>
+            <ul class="openhours-list">
+              <li><span>Monday</span><span>9-8</span></li>
+              <li><span>Tuesday</span><span>9-8</span></li>
+              <li><span>Wednesday</span><span>9-8</span></li>
+              <li><span>Thursday</span><span>9-8</span></li>
+              <li><span>Friday</span><span>9-8</span></li>
+              <li><span>Saturday</span><span>9-8</span></li>
+              <li><span>Sunday</span><span>9-8</span></li>
+            </ul>
+          </div>
+          <div class="actions">
+            <a href="#">Get Directions</a>
+            <a href="#">Book Appointment</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="map" class="locations-google-map"></div>
+    </div>
+  </div>
+</div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=&amp;callback=initMap&amp;libraries=&amp;v=weekly" async></script>
+<script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  const uluru = { lat: -25.344, lng: 131.036 };
+  // The map, centered at Uluru
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 10,
+    center: uluru,
+  });
+  // The marker, positioned at Uluru
+  const marker = new google.maps.Marker({
+    position: uluru,
+    map: map,
+  });
+}
+</script>

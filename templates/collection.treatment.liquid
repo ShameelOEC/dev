@@ -1,0 +1,70 @@
+{% if show_breadcrumbs %}
+{% render 'framework--breadcrumbs' %}
+{% endif %}
+
+<div class="collection_banner">
+  <img src="{{collection.metafields.banner.banner_image}}" alt>
+  <div class="main_content">
+    <h1>{{collection.title}}</h1>
+    <div class="main_description">
+      {{collection.description}}
+    </div>
+  </div>
+</div>
+<div class="container">
+  <h2>Treatments</h2>
+
+  <div class="product_lists">
+    {%- for product in collection.products -%}
+    <div class="product_block">
+      <div class="title_price">
+        <p>{{product.title}}</p> <span>{{product.price | money }}</span>
+      </div>
+      <div class="description_block">
+        {{product.description}}
+      </div>
+      <div class="button_action"><a href="#">Book Now</a></div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% comment %}{% section 'collection-template-boost-pfs-filter' %}{% endcomment %}
+{% section 'treatment-text-section' %}
+{% section 'framework--featured-content' %}
+{% section 'treatment-text-section-2' %}
+{% section 'framework--featured-video' %}
+{% section 'treatment-text-section-3' %}
+{% section 'text-slide' %}
+{% section 'treatment_collections_section' %}
+
+<script src="//cdn.shopify.com/s/files/1/0531/2374/3901/t/4/assets/owl.carousel.min.js"></script>
+<script>
+
+  $('.text_slideshow .content_slider').owlCarousel({
+    items: 1,
+    navigation: true,
+    dots:true,
+    scrollPerPage: true,
+    slideSpeed: 800,
+    lazyLoad: false,
+    pagination: true,
+    navigationText: false,
+    responsiveClass:true,
+    responsive : {
+      0 : {
+        items: 1,
+        loop:true,
+      },
+      480 : {
+        loop:true,
+        items: 1
+      },
+      768 : {
+        loop:true,
+        items: 1
+      }
+    }
+  });
+
+</script>
+{{'treatment_collection.css' | asset_url | stylesheet_tag}}

@@ -1,0 +1,132 @@
+{% comment %} Variables {% endcomment %}
+{%- liquid
+assign collection = collections[product.metafields.featured_collection.collection]
+assign slider_limit = section.settings.max_products
+assign bg_color = section.settings.bg_color
+assign padding_top = section.settings.padding_top
+assign padding_bottom = section.settings.padding_bottom
+-%}
+
+<div
+  class="product-slider{% if collection.products.size < 4 and collection.products.size != 0 %} disabled{% endif %} {{
+  settings.color-icons-theme }} length--3"
+  style="background-color: {{ bg_color }};padding-top:{{ padding_top }};padding-bottom:{{ padding_bottom }}">
+  <div class="row header">
+    <div class="columns">
+     <!-- <h2 data-item="section-heading">
+      {% if collection.handle.size > 0 %}
+        {{ collection.title | link_to: collection.url }}
+      {% else %}
+        {{ 'home.onboarding.featured_collection' | t }}
+      {% endif %}
+     </h2> -->
+     <div class="content_head">
+      {% if product.metafields.featured_collection.title != blank %}
+        <h2>{{ product.metafields.featured_collection.title }}</h2>
+      {% endif %}
+
+      {% if product.metafields.featured_collection.description != blank %}
+        {{ product.metafields.featured_collection.description }}
+      {% endif %}
+     </div>
+   </div>
+  </div>
+  <div class="row content">
+    <div
+      class="product-grid--root"
+      data-js-class="ProductGrid"
+      data-in-slider="true"
+      data-slider-items="{{ section.settings.max_slider_item }}"
+    >
+      {% if collection.products.size and collection.products.size > 0 %}
+        {% for product in collection.products limit: slider_limit %}
+          {% render 'framework--product--item',
+            product: product,
+            view: 'slider'
+          %}
+        {% endfor %}
+      {% else %}
+        {% for i in (1..6) %}
+          {%
+            render 'framework--product--item',
+            view: 'slider',
+            onboarding: true,
+            index: i
+          %}
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Featured collection",
+  "class": "section--featured-collection",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title_collection",
+      "label": "Title collection"
+    },
+    {
+      "type": "richtext",
+      "id": "info_collection",
+      "label": "Description collection"
+    },
+    {
+      "type": "collection",
+      "id": "home-product-slider-collection",
+      "label": "Choose collection"
+    },
+    {
+      "label": "Amount of products to show",
+      "id": "max_products",
+      "type": "range",
+      "min": 4,
+      "max": 20,
+      "step": 4,
+      "default": 12
+    },
+    {
+      "label": "Slider items",
+      "id": "max_slider_item",
+      "type": "range",
+      "min": 3,
+      "max": 6,
+      "default": 3
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Space settings",
+      "info": "Set top and bottom padding"
+    },
+    {
+      "type": "text",
+      "id": "padding_top",
+      "label": "Padding top",
+      "default": "20px",
+      "info": "Unit is pixel"
+    },
+    {
+      "type": "text",
+      "id": "padding_bottom",
+      "label": "Padding bottom",
+      "default": "20px",
+      "info": "Unit is pixel"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Featured collection",
+      "category": "Collection"
+    }
+  ]
+}
+{% endschema %}
